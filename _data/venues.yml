@@ -1,6 +1,11 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ArXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"TheWebConf":
+  url: https://thewebconf.org/
+  color: "#252060"
+
+"IJCAI":
+  url: https://www.ijcai.org/
+  color: "#29333d"
