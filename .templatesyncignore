@@ -1,0 +1,10 @@
+# customized _includes/cv/time_table.html to bold institution
+# customized _sass/_themes.scss to use dark blue color theme
+
+_bibliography/papers.bib
+_data/coauthors.yml
+_data/cv.yml
+_data/repositories.yml
+_data/venues.yml
+_news/*.md
+assets/img/prof_pic.jpg
