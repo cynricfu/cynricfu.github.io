@@ -3,8 +3,9 @@ github_users:
 
 github_repos:
   - cynricfu/MAGNN
+  - cynricfu/FedHGN
   - cynricfu/MECCH
   - cynricfu/dual-fisheye-video-stitching
   - cynricfu/multi-band-blending
   - cynricfu/huffman-coding
-  - cynricfu/cynricfu.github.io
+  # - cynricfu/cynricfu.github.io
