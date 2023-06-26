@@ -107,6 +107,9 @@
 - title: Talks
   type: time_table
   contents:
+    - title: "Trustworthy Federated Learning: Concepts, Methods, Applications, and Beyond"
+      year: 2023
+      institution: IJCNN 2023
     - title: Heterogeneous Graph Neural Networks Recent Research Progress
       year: 2023
       institution: Learning on Graphs Seminar
