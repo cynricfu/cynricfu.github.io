@@ -1,16 +1,19 @@
 ---
 ---
 
-@article{fu2023fedhgn,
+@inproceedings{DBLP:conf/ijcai/0004K23,
   author       = {Xinyu Fu and
                   Irwin King},
-  title        = {{FedHGN:} A Federated Framework for Heterogenenous Graph Neural Networks},
-  journal    = {To appear at {IJCAI} 2023, Macao, China, August 19-25},
+  title        = {FedHGN: {A} Federated Framework for Heterogeneous Graph Neural Networks},
+  booktitle    = {{IJCAI}},
+  pages        = {3705--3713},
+  publisher    = {ijcai.org},
   year         = {2023},
   abbr         = {IJCAI},
   abstract     = {Heterogeneous graph neural networks (HGNNs) can learn from typed and relational graph data more effectively than conventional GNNs. With larger parameter spaces, HGNNs may require more training data, which is often scarce in real-world applications due to privacy regulations (e.g., GDPR). Federated graph learning (FGL) enables multiple clients to train a GNN collaboratively without sharing their local data. However, existing FGL methods mainly focus on homogeneous GNNs or knowledge graph embeddings; few have considered heterogeneous graphs and HGNNs. In federated heterogeneous graph learning, clients may have private graph schemas. Conventional FL/FGL methods attempting to define a global HGNN model would violate schema privacy. To address these challenges, we propose FedHGN, a novel and general FGL framework for HGNNs. FedHGN adopts schema-weight decoupling to enable schema-agnostic knowledge sharing and employs coefficients alignment to stabilize the training process and improve HGNN performance. With better privacy preservation, FedHGN consistently outperforms local training and conventional FL methods on three widely adopted heterogeneous graph datasets with varying client numbers.},
   arxiv        = {2305.09729},
   bibtex_show  = {true},
+  html         = {https://www.ijcai.org/proceedings/2023/412},
   pdf          = {https://arxiv.org/pdf/2305.09729.pdf},
   code         = {https://github.com/cynricfu/FedHGN},
   selected     = {true}
