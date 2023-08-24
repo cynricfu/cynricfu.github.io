@@ -5,3 +5,4 @@ _data/repositories.yml
 _data/venues.yml
 _news/*.md
 assets/img/prof_pic.jpg
+.github/workflows/*
