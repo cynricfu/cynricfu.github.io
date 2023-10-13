@@ -107,15 +107,19 @@
 - title: Talks
   type: time_table
   contents:
+    - title: "AI for non-AI Researchers"
+      year: 2023
+      institution: CUHK Library Research Computing Café
+      # https://www.lib.cuhk.edu.hk/en/about/events/research-cafe-on-how-ai-can-empower-your-research/
     - title: "Trustworthy Federated Learning: Concepts, Methods, Applications, and Beyond"
       year: 2023
       institution: IJCNN 2023
     - title: Heterogeneous Graph Neural Networks Recent Research Progress
       year: 2023
       institution: Learning on Graphs Seminar
-    # - title: Deep Learning on Graphs
-    #   year: 2022
-    #   institution: DeepLearn 2022 Summer
+    - title: Deep Learning on Graphs
+      year: 2022
+      institution: DeepLearn 2022 Summer
     - title: "Deep Learning on Graphs: Methods and Applications"
       year: 2020
       institution: ICONIP 2020
@@ -125,10 +129,10 @@
   contents:
     - title: Conference Reviewer
       items:
-        - NeurIPS (2021), WebConf (2022), WSDM (2023), AAAI (2023), ECML-PKDD (2023)
+        - NeurIPS (2021), WebConf (2022, 2023), WSDM (2023), AAAI (2023, 2024), ECML-PKDD (2023)
     - title: Journal Reviewer
       items:
-        - TNNLS, TSC, NEUNET, PR, FGCS, TNSE
+        - TKDE, TPAMI, TNNLS, TSC, NEUNET, PR, FGCS, TNSE
 
 - title: Teaching Experience
   type: time_table
