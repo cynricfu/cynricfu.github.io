@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Served as a reviewer in the [TheWebConf 2023](https://www2023.thewebconf.org/) "Artifacts Available" review committee
+Served as a reviewer in the [WWW 2023](https://www2023.thewebconf.org/) "Artifacts Available" review committee
