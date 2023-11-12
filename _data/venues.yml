@@ -8,4 +8,9 @@
 
 "IJCAI":
   url: https://www.ijcai.org/
-  color: "#29333d"
+  color: "#252060"
+  # color: "#29333d"
+
+"NEUNET":
+  url: https://www.journals.elsevier.com/neural-networks
+  color: "#206025"
