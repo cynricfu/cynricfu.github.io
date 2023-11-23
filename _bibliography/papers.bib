@@ -7,11 +7,14 @@
   title        = {{MECCH:} Metapath Context Convolution-based Heterogeneous Graph Neural
                   Networks},
   journal      = {Neural Networks},
-  year         = {2023},
+  volume       = {170},
+  pages        = {266--275},
+  year         = {2024},
   abbr         = {NEUNET},
-  abstract     = {Heterogeneous graph neural networks (HGNNs) were proposed for representation learning on structural data with multiple types of nodes and edges. Researchers have developed metapath-based HGNNs to deal with the over-smoothing problem of relation-based HGNNs. However, existing metapath-based models suffer from either information loss or high computation costs. To address these problems, we design a new Metapath Context Convolution-based Heterogeneous Graph Neural Network (MECCH). Specifically, MECCH applies three novel components after feature preprocessing to extract comprehensive information from the input graph efficiently: (1) metapath context construction, (2) metapath context encoder, and (3) convolutional metapath fusion. Experiments on five real-world heterogeneous graph datasets for node classification and link prediction show that MECCH achieves superior prediction accuracy compared with state-of-the-art baselines with improved computational efficiency.},
+  abstract     = {Heterogeneous graph neural networks (HGNNs) were proposed for representation learning on structural data with multiple types of nodes and edges. To deal with the performance degradation issue when HGNNs become deep, researchers combine metapaths into HGNNs to associate nodes closely related in semantics but far apart in the graph. However, existing metapath-based models suffer from either information loss or high computation costs. To address these problems, we present a novel Metapath Context Convolution-based Heterogeneous Graph Neural Network (MECCH). MECCH leverages metapath contexts, a new kind of graph structure that facilitates lossless node information aggregation while avoiding any redundancy. Specifically, MECCH applies three novel components after feature preprocessing to extract comprehensive information from the input graph efficiently: (1) metapath context construction, (2) metapath context encoder, and (3) convolutional metapath fusion. Experiments on five real-world heterogeneous graph datasets for node classification and link prediction show that MECCH achieves superior prediction accuracy compared with state-of-the-art baselines with improved computational efficiency.},
   arxiv        = {2211.12792},
   bibtex_show  = {true},
+  html         = {https://doi.org/10.1016/j.neunet.2023.11.030},
   pdf          = {https://arxiv.org/pdf/2211.12792.pdf},
   code         = {https://github.com/cynricfu/MECCH},
   selected     = {true}
@@ -29,7 +32,7 @@
   abstract     = {Heterogeneous graph neural networks (HGNNs) can learn from typed and relational graph data more effectively than conventional GNNs. With larger parameter spaces, HGNNs may require more training data, which is often scarce in real-world applications due to privacy regulations (e.g., GDPR). Federated graph learning (FGL) enables multiple clients to train a GNN collaboratively without sharing their local data. However, existing FGL methods mainly focus on homogeneous GNNs or knowledge graph embeddings; few have considered heterogeneous graphs and HGNNs. In federated heterogeneous graph learning, clients may have private graph schemas. Conventional FL/FGL methods attempting to define a global HGNN model would violate schema privacy. To address these challenges, we propose FedHGN, a novel and general FGL framework for HGNNs. FedHGN adopts schema-weight decoupling to enable schema-agnostic knowledge sharing and employs coefficients alignment to stabilize the training process and improve HGNN performance. With better privacy preservation, FedHGN consistently outperforms local training and conventional FL methods on three widely adopted heterogeneous graph datasets with varying client numbers.},
   arxiv        = {2305.09729},
   bibtex_show  = {true},
-  html         = {https://www.ijcai.org/proceedings/2023/412},
+  html         = {https://doi.org/10.24963/ijcai.2023/412},
   pdf          = {https://arxiv.org/pdf/2305.09729.pdf},
   code         = {https://github.com/cynricfu/FedHGN},
   selected     = {true}
@@ -50,7 +53,7 @@
   abstract     = {A large number of real-world graphs or networks are inherently heterogeneous, involving a diversity of node types and relation types. Heterogeneous graph embedding is to embed rich structural and semantic information of a heterogeneous graph into low-dimensional node representations. Existing models usually define multiple metapaths in a heterogeneous graph to capture the composite relations and guide neighbor selection. However, these models either omit node content features, discard intermediate nodes along the metapath, or only consider one metapath. To address these three limitations, we propose a new model named Metapath Aggregated Graph Neural Network (MAGNN) to boost the final performance. Specifically, MAGNN employs three major components, i.e., the node content transformation to encapsulate input node attributes, the intra-metapath aggregation to incorporate intermediate semantic nodes, and the inter-metapath aggregation to combine messages from multiple metapaths. Extensive experiments on three real-world heterogeneous graph datasets for node classification, node clustering, and link prediction show that MAGNN achieves more accurate prediction results than state-of-the-art baselines.},
   arxiv        = {2002.01680},
   bibtex_show  = {true},
-  html         = {https://dl.acm.org/doi/fullHtml/10.1145/3366423.3380297},
+  html         = {https://doi.org/10.1145/3366423.3380297},
   pdf          = {https://arxiv.org/pdf/2002.01680.pdf},
   code         = {https://github.com/cynricfu/MAGNN},
   selected     = {true}
