@@ -129,10 +129,10 @@
   contents:
     - title: Conference Reviewer
       items:
-        - NeurIPS (2021), ICLR (2024), WWW (2022, 2023, 2024), WSDM (2023), AAAI (2023, 2024), ECML-PKDD (2023)
+        - NeurIPS (2021), ICLR (2024), WWW (2022, 2023, 2024), KDD (2024), WSDM (2023), AAAI (2023, 2024), ECML-PKDD (2023)
     - title: Journal Reviewer
       items:
-        - TKDE, TPAMI, TKDD, TNNLS, TSC, NEUNET, PR, FGCS, TNSE
+        - TKDE, TPAMI, TSE, TKDD, TNNLS, TSC, NEUNET, PR, FGCS, TNSE
 
 - title: Teaching Experience
   type: time_table
