@@ -6,6 +6,10 @@
   url: https://thewebconf.org/
   color: "#252060"
 
+"KDD":
+  url: https://www.kdd.org/
+  color: "#252060"
+
 "IJCAI":
   url: https://www.ijcai.org/
   color: "#252060"
@@ -13,4 +17,8 @@
 
 "NEUNET":
   url: https://www.journals.elsevier.com/neural-networks
+  color: "#206025"
+
+"TIST":
+  url: https://dl.acm.org/journal/tist
   color: "#206025"

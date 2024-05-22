@@ -1,12 +1,20 @@
+"Chen":
+  - firstname: ["Guanzhong"]
+    url: https://scholar.google.com/
+  - firstname: ["Yankai"]
+    url: https://yankai-chen.github.io/
+
 "King":
   - firstname: ["Irwin"]
     url: https://www.cse.cuhk.edu.hk/irwin.king/
 
-"Zhang":
-  - firstname: ["Jiani"]
-    url: https://jennyzhang0215.github.io/
-  - firstname: ["Yifei"]
-    url: https://yifeiacc.github.io/
+"Koniusz"
+  - firstname: ["Piotr"]
+    url: https://www.koniusz.com/
+
+"Luo":
+  - firstname: ["Jinglong"]
+    url: https://dblp.org/pid/257/4192.html
 
 "Meng":
   - firstname: ["Ziqiao"]
@@ -16,10 +24,24 @@
   - firstname: ["Zixing"]
     url: https://ieeexplore.ieee.org/author/37089954013
 
+"Xu":
+  - firstname: ["Zenglin"]
+    url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
+
 "Yang":
   - firstname: ["Xiangli"]
     url: https://scholar.google.com/citations?user=PWbQtnoAAAAJ
 
-"Xu":
-  - firstname: ["Zenglin"]
-    url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
+"Zeng":
+  - firstname: ["Dun"]
+    url: https://dunzeng.github.io/
+
+"Zhang":
+  - firstname: ["Jiani"]
+    url: https://jennyzhang0215.github.io/
+  - firstname: ["Yifei"]
+    url: https://yifeiacc.github.io/
+
+"Zhu":
+  - firstname: ["Hao"]
+    url: https://scholar.google.com/citations?user=cpee-44AAAAJ
