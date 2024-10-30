@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Happy to announce that I have passed my Ph.D. oral defense!
+Happy to announce that I have passed my PhD oral defense!

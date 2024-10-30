@@ -23,7 +23,7 @@
 - title: Education
   type: time_table
   contents:
-    - title: PhD Candidate in Computer Science
+    - title: PhD in Computer Science
       institution: The Chinese University of Hong Kong
       year: 2018 - 2024
       description:
@@ -49,7 +49,12 @@
 - title: Work Experience
   type: time_table
   contents:
-    - title: Research Intern
+    - title: Research Engineer
+      institution: Huawei, Hong Kong
+      year: 2024/10 - now
+      description:
+        - Research and development for Huawei's Xiaoyi AI virtual assistant
+    - title: Applied Scientist Intern
       institution: AWS, Shanghai
       year: 2020/5 - 2020/11
       description:
@@ -59,7 +64,7 @@
         #   contents:
         #     - Sub-description 1.
         #     - Sub-description 2.
-    - title: Summer Intern
+    - title: Back-end Developer Intern
       institution: Tencent, Shenzhen
       year: 2018/5 - 2018/7
       description:
@@ -129,10 +134,10 @@
   contents:
     - title: Conference Reviewer
       items:
-        - NeurIPS (2021), ICLR (2024), WWW (2022, 2023, 2024), KDD (2024), WSDM (2023), AAAI (2023, 2024), ECML-PKDD (2023)
+        - NeurIPS (2021), ICLR (2024, 2025), WWW (2022, 2023, 2024, 2025), KDD (2024), WSDM (2023), AAAI (2023, 2024, 2025), ECML-PKDD (2023)
     - title: Journal Reviewer
       items:
-        - TKDE, TPAMI, TSE, TKDD, TNNLS, TSC, NEUNET, PR, FGCS, TNSE
+        - TKDE, TPAMI, TSE, TKDD, TNNLS, TCAD, TSC, NEUNET, PR, FGCS, TNSE
 
 - title: Teaching Experience
   type: time_table

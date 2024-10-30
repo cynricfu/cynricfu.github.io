@@ -1,21 +1,25 @@
 ---
 ---
 
-@inproceedings{geometric,
+@inproceedings{DBLP:conf/kdd/ZhangZS00MKK24,
   author       = {Yifei Zhang and
                   Hao Zhu and
                   Zixing Song and
                   Yankai Chen and
                   Xinyu Fu and
+                  Ziqiao Meng and
                   Piotr Koniusz and
                   Irwin King},
   title        = {Geometric View of Soft Decorrelation in Self-Supervised Learning},
   booktitle    = {{KDD}},
+  pages        = {4338--4349},
   publisher    = {{ACM}},
   year         = {2024},
   abbr         = {KDD},
-  abstract     = {Self-supervised learning (SSL), a variant of unsupervised learning, often consists of an alignment term and a regularization term. The alignment term typically measures the distance between the embeddings of a positive pair, while the regularization term prevents trivial solutions and expresses prior beliefs about the preferred solution. As a widely used regularization technique, "soft decorrelation" has been used by several non-contrastive SSL methods to avoid trivial solutions. While the decorrelation term is designed to address the issue of the so-called dimensional collapse, we found it struggles to achieve this goal theoretically. Based on this observation, we extend the "soft decorrelation" regularization to minimize the distance between the cross-correlation matrix and an identity matrix. We provide a new perspective of geometric distance between positive definite matrices to investigate why "soft decorrelation" cannot solve dimensional collapse efficiently. Furthermore, we construct a family of loss functions utilizing Bregman Matrix Divergence (BMD), with soft decorrelation representing a specific instance within this family. We prove a loss function (LogDet) in this family can theoretically solve the issue of dimensional collapse. Our novel loss functions based on BMD exhibit superior performance compared to "soft decorrelation" and other baseline techniques across various domain datasets and diverse downstream tasks within experimental results on graph and image datasets.},
+  abstract     = {Contrastive learning, a form of Self-Supervised Learning (SSL), typically consists of an alignment term and a regularization term. The alignment term minimizes the distance between the embeddings of a positive pair, while the regularization term prevents trivial solutions and expresses prior beliefs about the embeddings. As a widely used regularization technique, soft decorrelation has been employed by several non-contrastive SSL methods to avoid trivial solutions. While the decorrelation term is designed to address the issue of dimensional collapse, we find that it fails to achieve this goal theoretically and experimentally. Based on such a finding, we extend the soft decorrelation regularization to minimize the distance between the covariance matrix and an identity matrix. We provide a new perspective on the geometric distance between positive definite matrices to investigate why the soft decorrelation cannot efficiently solve the dimensional collapse. Furthermore, we construct a family of loss functions utilizing the Bregman Matrix Divergence (BMD), with the soft decorrelation representing a specific instance within this family. We prove that a loss function (LogDet) in this family can solve the issue of dimensional collapse. Our novel loss functions based on BMD exhibit superior performance compared to the soft decorrelation and other baseline techniques, as demonstrated by experimental results on graph and image datasets.},
   bibtex_show  = {true},
+  html         = {https://doi.org/10.1145/3637528.3671914},
+  pdf          = {https://dl.acm.org/doi/pdf/10.1145/3637528.3671914},
   selected     = {false}
 }
 
@@ -37,7 +41,7 @@
   selected     = {false}
 }
 
-@inproceedings{FedSSL_survey,
+@inproceedings{DBLP:conf/ijcai/SongYZ0XK24,
   author       = {Zixing Song and
                   Xiangli Yang and
                   Yifei Zhang and
@@ -46,15 +50,18 @@
                   Irwin King},
   title        = {A Systematic Survey on Federated Semi-supervised Learning},
   booktitle    = {{IJCAI}},
+  pages        = {8244--8252},
   publisher    = {ijcai.org},
   year         = {2024},
   abbr         = {IJCAI},
   abstract     = {Federated learning (FL) revolutionizes distributed machine learning by enabling devices to collaboratively learn a model while maintaining data privacy. However, FL usually faces a critical challenge with limited labeled data, making semi-supervised learning (SSL) crucial for utilizing abundant unlabeled data. The integration of SSL within the federated framework gives rise to federated semi-supervised learning (FSSL), a novel approach that exploits unlabeled data across devices without compromising privacy. This paper systematically explores FSSL, shedding light on its four basic problem settings that commonly appear in real-world scenarios. By examining the unique challenges, generic solutions, and representative methods tailored for each setting of FSSL, we aim to provide a cohesive overview of the current state of the art and pave the way for future research directions in this promising field.},
   bibtex_show  = {true},
+  html         = {https://www.ijcai.org/proceedings/2024/911},
+  pdf          = {https://www.ijcai.org/proceedings/2024/0911.pdf},
   selected     = {false}
 }
 
-@article{MECCH,
+@article{DBLP:journals/nn/FuK24,
   author       = {Xinyu Fu and
                   Irwin King},
   title        = {{MECCH:} Metapath Context Convolution-based Heterogeneous Graph Neural

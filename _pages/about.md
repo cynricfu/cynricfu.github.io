@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate @ <a href='https://misc-lab.cse.cuhk.edu.hk/'>MISC Lab</a> • <a href='https://www.cse.cuhk.edu.hk/'>CSE</a> • <a href='https://www.cuhk.edu.hk/'>CUHK</a>
+subtitle: Research Engineer @ <a href='https://noahlab.com.hk/'>Noah's Ark Lab</a> • <a href='https://www.linkedin.com/company/huawei-hong-kong-research-center-hkrc'>HKRC</a> • <a href='https://www.huawei.com/'>Huawei</a>
 
 profile:
   align: right
@@ -19,10 +19,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm currently a PhD candidate at the [Department of Computer Science and Engineering](https://www.cse.cuhk.edu.hk/) of [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) under the supervision of [Prof. Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/) in the [Machine Intelligence and Social Computing Lab](https://misc-lab.cse.cuhk.edu.hk/).
+I am currently a full-time research engineer at [Huawei Noah's Ark Lab](https://noahlab.com.hk/). Before joining Huawei, I obtained my PhD degree from [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) in 2024, under the supervision of [Prof. Irwin King](https://www.cse.cuhk.edu.hk/irwin.king/) in the [Machine Intelligence and Social Computing Lab](https://misc-lab.cse.cuhk.edu.hk/).
 
-My research interests lie in machine learning algorithms for graph-structured data, with a focus on **heterogeneous graph neural networks** and **federated graph learning**.
+My research interests during my PhD study lie in machine learning algorithms for graph-structured data, with a focus on **heterogeneous graph neural networks** and **federated graph learning**.
 
-I'm open to any forms of collaborations. We welcome undergraduates, postgraduates, or other potential PhD applicants to visit our research group. Feel free to drop me an email if you are interested.
+We are looking for experienced researchers/engineers or fresh graduates with strong machine learning and natural language processing background to join our group at Huawei. We also welcome researchers from the academia to discuss potential collaborations with us. Feel free to drop me an email if you are interested.
 
 I love Sci-Fi novels, movies, and games. Cyberpunk, space exploration, time travel😉.
