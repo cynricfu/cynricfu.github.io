@@ -23,6 +23,6 @@ I am currently a full-time research engineer at [Huawei Noah's Ark Lab](https://
 
 My research interests during my PhD study lie in machine learning algorithms for graph-structured data, with a focus on **heterogeneous graph neural networks** and **federated graph learning**.
 
-We are looking for experienced researchers/engineers or fresh graduates with strong machine learning and natural language processing background to join our group at Huawei. We also welcome researchers from the academia to discuss potential collaborations with us. Feel free to drop me an email if you are interested.
+Our team at Huawei focuses on developing AI solutions for [Xiaoyi/Celia Intelligent Assistant](https://consumer.huawei.com/cn/mobileservices/celia/). We are looking for experienced researchers/engineers or fresh graduates with strong natural language processing, multimodal machine learning, or AI agent background to join us. We also welcome researchers from the academia to discuss potential collaborations with us. Feel free to drop me an email if you are interested.
 
 I love Sci-Fi novels, movies, and games. Cyberpunk, space exploration, time travel😉.
