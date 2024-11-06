@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One survey paper accepted by [IJCAI 2024](https://ijcai24.org/): *A Systematic Survey on Federated Semi-supervised Learning*. Congratulations to Zixing!
+One survey paper accepted by [IJCAI 2024](https://ijcai24.org/): _A Systematic Survey on Federated Semi-supervised Learning_. Congratulations to Zixing!

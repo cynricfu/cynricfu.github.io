@@ -1,6 +1,8 @@
 github_users:
   - cynricfu
 
+repo_description_lines_max: 2
+
 github_repos:
   - cynricfu/MAGNN
   - cynricfu/FedHGN

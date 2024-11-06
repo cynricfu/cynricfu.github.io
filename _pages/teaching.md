@@ -10,6 +10,7 @@ nav_order: 4
 ---
 
 ## CUHK
+
 - Spring 2022 -- CSCI2100A/ESTR2102 Data Structures
 - Spring 2021 -- CSCI2100A/ESTR2102 Data Structures
 - Fall 2020 -- [CSCI3230/ESTR3108 Fundamentals of Artificial Intelligence](https://www.cse.cuhk.edu.hk/~ksleung/csci3230/)

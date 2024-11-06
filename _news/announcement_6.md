@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by [IJCAI 2023](https://ijcai-23.org/): *FedHGN: A Federated Framework for Heterogeneous Graph Neural Networks*
+One paper accepted by [IJCAI 2023](https://ijcai-23.org/): _FedHGN: A Federated Framework for Heterogeneous Graph Neural Networks_

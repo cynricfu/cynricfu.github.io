@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Another survey paper accepted by [ACM TIST](https://dl.acm.org/journal/tist): *A Survey of Trustworthy Federated Learning: Issues, Solutions, and Challenges*. Congratulations to Yifei!
+Another survey paper accepted by [ACM TIST](https://dl.acm.org/journal/tist): _A Survey of Trustworthy Federated Learning: Issues, Solutions, and Challenges_. Congratulations to Yifei!

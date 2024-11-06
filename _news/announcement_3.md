@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our tutorial *[Deep Learning on Graphs](https://deeplearn.irdta.eu/2022su/blog/speakers/irwin-king/)* was presented at [DeepLearn 2022 Summer](https://deeplearn.irdta.eu/2022su/)
+Our tutorial _[Deep Learning on Graphs](https://deeplearn.irdta.eu/2022su/blog/speakers/irwin-king/)_ was presented at [DeepLearn 2022 Summer](https://deeplearn.irdta.eu/2022su/)
