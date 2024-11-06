@@ -17,9 +17,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         # https://github.com/actions/checkout#usage
-        # uncomment if you use submodules within the repository
-        # with:
-        #   submodules: true
+        with:
+          # uncomment if you use submodules within the repository
+          # submodules: true
+          token: ${{ secrets.TEMPLATE_SYNC_TOKEN }}
       - name: actions-template-sync
         uses: AndreasAugustin/actions-template-sync@v2
         with:
