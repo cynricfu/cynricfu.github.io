@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: '"Simplicity is prerequisite for reliability." - '<i>Edsger W. Dijkstra</i>
+description: '"Simplicity is prerequisite for reliability." - Edsger W. Dijkstra'
 nav: true
 nav_order: 2
 ---

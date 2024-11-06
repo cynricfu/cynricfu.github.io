@@ -2,7 +2,7 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: '"Those who know, do. Those that understand, teach." - '<i>Aristotle</i>
+description: '"Those who know, do. Those that understand, teach." - Aristotle'
 nav: true
 nav_order: 4
 ---
