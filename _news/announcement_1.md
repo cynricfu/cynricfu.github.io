@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2020-01-11 00:00:00+0000
+date: 2015-10-22 15:59:00-0400
 inline: true
 related_posts: false
 ---
 
-One paper accepted by [WWW 2020](https://thewebconf.org/www2020/): *MAGNN: Metapath Aggregated Graph Neural Network for Heterogeneous Graph Embedding*
+A simple inline announcement.
