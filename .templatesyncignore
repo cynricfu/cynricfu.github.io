@@ -1,8 +1,0 @@
-_bibliography/papers.bib
-_data/coauthors.yml
-_data/cv.yml
-_data/repositories.yml
-_data/venues.yml
-_news/*.md
-assets/img/prof_pic.jpg
-.github/workflows/*
