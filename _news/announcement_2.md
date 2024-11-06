@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our tutorial *Deep Learning on Graphs: Methods and Applications* was presented at [ICONIP 2020](https://www.apnns.org/ICONIP2020/)
+Our tutorial _Deep Learning on Graphs: Methods and Applications_ was presented at [ICONIP 2020](https://www.apnns.org/ICONIP2020/)

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-One paper accepted by [Neural Networks](https://www.sciencedirect.com/journal/neural-networks): *MECCH: Metapath Context Convolution-based Heterogeneous Graph Neural Networks*
+One paper accepted by [Neural Networks](https://www.sciencedirect.com/journal/neural-networks): _MECCH: Metapath Context Convolution-based Heterogeneous Graph Neural Networks_
