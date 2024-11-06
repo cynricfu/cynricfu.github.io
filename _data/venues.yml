@@ -1,9 +1,24 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ArXiv":
+  url: https://arxiv.org/
+  color: "#b31b1b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"WWW":
+  url: https://thewebconf.org/
+  color: "#252060"
 
-"Vision":
-  color: "#009f36"
+"KDD":
+  url: https://www.kdd.org/
+  color: "#252060"
+
+"IJCAI":
+  url: https://www.ijcai.org/
+  color: "#252060"
+  # color: "#29333d"
+
+"NEUNET":
+  url: https://www.journals.elsevier.com/neural-networks
+  color: "#206025"
+
+"TIST":
+  url: https://dl.acm.org/journal/tist
+  color: "#206025"
