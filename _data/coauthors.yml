@@ -1,47 +1,34 @@
-"chen":
-  - firstname: ["Guanzhong"]
-    url: https://scholar.google.com/citations?user=yFA1eVUAAAAJ
-  - firstname: ["Yankai"]
-    url: https://yankai-chen.github.io/
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"king":
-  - firstname: ["Irwin"]
-    url: https://www.cse.cuhk.edu.hk/irwin.king/
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"koniusz":
-  - firstname: ["Piotr"]
-    url: https://www.koniusz.com/
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"luo":
-  - firstname: ["Jinglong"]
-    url: https://dblp.org/pid/257/4192.html
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-"meng":
-  - firstname: ["Ziqiao"]
-    url: https://www.researchgate.net/profile/Ziqiao-Meng
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"song":
-  - firstname: ["Zixing"]
-    url: https://scholar.google.com/citations?user=dglpEtMAAAAJ
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"xu":
-  - firstname: ["Zenglin"]
-    url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"yang":
-  - firstname: ["Xiangli"]
-    url: https://scholar.google.com/citations?user=PWbQtnoAAAAJ
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"zeng":
-  - firstname: ["Dun"]
-    url: https://dunzeng.github.io/
-
-"zhang":
-  - firstname: ["Jiani"]
-    url: https://jennyzhang0215.github.io/
-  - firstname: ["Yifei"]
-    url: https://yifeiacc.github.io/
-
-"zhu":
-  - firstname: ["Hao"]
-    url: https://scholar.google.com/citations?user=cpee-44AAAAJ
+"planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
