@@ -1,13 +1,14 @@
 github_users:
-  - cynricfu
+  - torvalds
+  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - cynricfu/MAGNN
-  - cynricfu/FedHGN
-  - cynricfu/MECCH
-  - cynricfu/dual-fisheye-video-stitching
-  - cynricfu/multi-band-blending
-  - cynricfu/huffman-coding
-  # - cynricfu/cynricfu.github.io
+  - alshedivat/al-folio
+  - jekyll/jekyll
+  - twbs/bootstrap
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - mathjax/MathJax
+  - jpswalsh/academicons
