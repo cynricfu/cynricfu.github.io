@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I have joined [Huawei Noah's Ark Lab](https://noahlab.com.hk/) in Hong Kong as a full-time research engineer.
+I have joined [Huawei HKRC](https://www.linkedin.com/company/huawei-hong-kong-research-center-hkrc/) in Hong Kong as a full-time research engineer.

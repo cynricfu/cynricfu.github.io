@@ -1,8 +1,18 @@
 "chen":
   - firstname: ["Guanzhong"]
     url: https://stupidtrees.github.io/
+  - firstname: ["Ran"]
+    url: https://scholar.google.com/citations?user=HFo2pK4AAAAJ
   - firstname: ["Yankai"]
     url: https://yankai-chen.github.io/
+
+"gong":
+  - firstname: ["Cheng"]
+    url: https://chenggong1995.github.io/cg.io/
+
+"hu":
+  - firstname: ["Shoubo"]
+    url: https://dblp.org/pid/218/9202.html
 
 "king":
   - firstname: ["Irwin"]
@@ -12,25 +22,45 @@
   - firstname: ["Piotr"]
     url: https://www.koniusz.com/
 
+"liu":
+  - firstname: ["Jiahong"]
+    url: https://www.researchgate.net/profile/Jiahong-Liu-5
+  - firstname: ["Rui"]
+    url: https://scholar.google.com/citations?user=ADP-1goAAAAJ
+  - firstname: ["Yaofang"]
+    url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
+  - firstname: ["Ziru"]
+    url: https://scholar.google.com/citations?user=7H-1sukAAAAJ
+
 "luo":
   - firstname: ["Jinglong"]
     url: https://dblp.org/pid/257/4192.html
 
 "meng":
   - firstname: ["Ziqiao"]
-    url: https://www.researchgate.net/profile/Ziqiao-Meng
+    url: https://scholar.google.com/citations?user=NY3OA7sAAAAJ
 
 "song":
   - firstname: ["Zixing"]
-    url: https://scholar.google.com/citations?user=dglpEtMAAAAJ
+    url: https://www.wolfson.cam.ac.uk/people/dr-zixing-song
+
+"tu":
+  - firstname: ["Dandan"]
+    url: https://scholar.google.com/citations?user=nf8bdFYAAAAJ
 
 "xu":
   - firstname: ["Zenglin"]
     url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
 
 "yang":
+  - firstname: ["Menglin"]
+    url: https://yangmenglinsite.github.io/
   - firstname: ["Xiangli"]
     url: https://scholar.google.com/citations?user=PWbQtnoAAAAJ
+
+"ying":
+  - firstname: ["Rex"]
+    url: https://www.cs.yale.edu/homes/ying-rex/
 
 "zeng":
   - firstname: ["Dun"]
@@ -39,6 +69,12 @@
 "zhang":
   - firstname: ["Jiani"]
     url: https://jennyzhang0215.github.io/
+  - firstname: ["Qingfu"]
+    url: https://scholar.google.com/citations?user=nhL9PHwAAAAJ
+  - firstname: ["Suiyun"]
+    url: https://scholar.google.com/citations?user=djYpGOIAAAAJ
+  - firstname: ["Weixi"]
+    url: https://orcid.org/0009-0007-4769-2779
   - firstname: ["Yifei"]
     url: https://yifeiacc.github.io/
 

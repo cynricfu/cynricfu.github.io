@@ -1,6 +1,48 @@
 ---
 ---
 
+@article{ziru_ghpo,
+  author       = {Ziru Liu and
+                  Cheng Gong and
+                  Xinyu Fu and
+                  Yaofang Liu and
+                  Ran Chen and
+                  Shoubo Hu and
+                  Suiyun Zhang and
+                  Rui Liu and
+                  Qingfu Zhang and
+                  Dandan Tu},
+  title        = {GHPO: Adaptive Guidance for Stable and Efficient LLM Reinforcement Learning},
+  journal      = {CoRR},
+  volume       = {abs/2507.10628},
+  year         = {2025},
+  abbr         = {arXiv},
+  abstract     = {Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as a powerful paradigm for facilitating the self-improvement of large language models (LLMs), particularly in the domain of complex reasoning tasks. However, prevailing on-policy RL methods often contend with significant training instability and inefficiency. This is primarily due to a capacity-difficulty mismatch, where the complexity of training data frequently outpaces the model's current capabilities, leading to critically sparse reward signals and stalled learning progress. This challenge is particularly acute for smaller, more resource-efficient LLMs. To overcome this, we introduce the Guided Hybrid Policy Optimization (GHPO), a novel difficulty-aware reinforcement learning framework. GHPO dynamically calibrates task difficulty by employing adaptive prompt refinement to provide targeted guidance. This unique approach adaptively balances direct imitation learning for problems currently beyond the model's reach with exploration-based reinforcement learning for more manageable tasks, effectively creating a smooth and optimized learning curriculum. Extensive experiments demonstrate that GHPO achieves an average performance gain of approximately 5% across six challenging mathematics benchmarks, consistently outperforming strong on-policy reinforcement learning and curriculum learning baselines. Further analysis confirms that our framework significantly enhances both training stability and final reasoning performance, thus offering a scalable and efficient solution for developing powerful and robust reasoning models.},
+  doi          = {10.48550/arXiv.2507.10628},
+  arxiv        = {2507.10628},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2507.10628},
+  code         = {https://github.com/hkgc-1/GHPO},
+  selected     = {true}
+}
+
+@inproceedings{jiahong_flatland,
+  author       = {Jiahong Liu and
+                  Xinyu Fu and
+                  Menglin Yang and
+                  Weixi Zhang and
+                  Rex Ying and
+                  Irwin King},
+  title        = {Client-Specific Hyperbolic Federated Learning},
+  booktitle    = {{FedKDD} Workshop},
+  year         = {2024},
+  abbr         = {FedKDD},
+  abstract     = {Personalized Federated Learning (PFL) has gained attention for privacy-preserving training on heterogeneous data. However, existing methods fail to capture the unique inherent geometric properties across diverse datasets by assuming a unified Euclidean space for all data distributions. Drawing on hyperbolic geometry's ability to fit complex data properties, we present FlatLand, a novel personalized Federated learning method that embeds different clients' data in tailored Lorentz space. FlatLand is able to directly tackle the challenge of heterogeneity through the personalized curvatures of their respective Lorentz model of hyperbolic geometry, which is manifested by the time-like dimension. Leveraging the Lorentz model properties, we further design a parameter decoupling strategy that enables direct server aggregation of common client information, with reduced heterogeneity interference and without the need for client-wise similarity estimation. To the best of our knowledge, this is the first attempt to incorporate hyperbolic geometry into personalized federated learning. Empirical results on various federated graph learning tasks demonstrate that FlatLand achieves superior performance, particularly in low-dimensional settings.},
+  bibtex_show  = {true},
+  pdf          = {https://openreview.net/pdf?id=vVikOgFrpW},
+  selected     = {false}
+}
+
 @inproceedings{DBLP:conf/kdd/ZhangZS00MKK24,
   author       = {Yifei Zhang and
                   Hao Zhu and
@@ -17,13 +59,13 @@
   year         = {2024},
   abbr         = {KDD},
   abstract     = {Contrastive learning, a form of Self-Supervised Learning (SSL), typically consists of an alignment term and a regularization term. The alignment term minimizes the distance between the embeddings of a positive pair, while the regularization term prevents trivial solutions and expresses prior beliefs about the embeddings. As a widely used regularization technique, soft decorrelation has been employed by several non-contrastive SSL methods to avoid trivial solutions. While the decorrelation term is designed to address the issue of dimensional collapse, we find that it fails to achieve this goal theoretically and experimentally. Based on such a finding, we extend the soft decorrelation regularization to minimize the distance between the covariance matrix and an identity matrix. We provide a new perspective on the geometric distance between positive definite matrices to investigate why the soft decorrelation cannot efficiently solve the dimensional collapse. Furthermore, we construct a family of loss functions utilizing the Bregman Matrix Divergence (BMD), with the soft decorrelation representing a specific instance within this family. We prove that a loss function (LogDet) in this family can solve the issue of dimensional collapse. Our novel loss functions based on BMD exhibit superior performance compared to the soft decorrelation and other baseline techniques, as demonstrated by experimental results on graph and image datasets.},
+  doi          = {10.1145/3637528.3671914},
   bibtex_show  = {true},
-  html         = {https://doi.org/10.1145/3637528.3671914},
   pdf          = {https://dl.acm.org/doi/pdf/10.1145/3637528.3671914},
   selected     = {false}
 }
 
-@article{TrustworthyFL_survey,
+@article{DBLP:journals/tist/ZhangZLFCXK24,
   author       = {Yifei Zhang and
                   Dun Zeng and
                   Jinglong Luo and
@@ -40,8 +82,8 @@
   year         = {2024},
   abbr         = {TIST},
   abstract     = {Trustworthy artificial intelligence (TAI) has proven invaluable in curbing potential negative repercussions tied to AI applications. Within the TAI spectrum, federated learning (FL) emerges as a promising solution to safeguard personal information in distributed settings across a multitude of practical contexts. However, the realm of FL is not without its challenges. Especially worrisome are adversarial attacks targeting its algorithmic robustness and systemic confidentiality. Moreover, the presence of biases and opacity in prediction outcomes further complicates FL’s broader adoption. Consequently, there is a growing expectation for FL to instill trust. To address this, we chart out a comprehensive road-map for Trustworthy Federated Learning (TFL) and provide an overview of existing efforts across four pivotal dimensions: Privacy and Security, Robustness, Fairness, and Explainability. For each dimension, we identify potential pitfalls that might undermine TFL and present a curated selection of defensive strategies, enriched by a discourse on technical solutions tailored for TFL. Furthermore, we present potential challenges and future directions to be explored for in-depth TFL research with broader impacts.},
+  doi          = {10.1145/3678181},
   bibtex_show  = {true},
-  html         = {https://doi.org/10.1145/3678181},
   selected     = {false}
 }
 
@@ -59,8 +101,8 @@
   year         = {2024},
   abbr         = {IJCAI},
   abstract     = {Federated learning (FL) revolutionizes distributed machine learning by enabling devices to collaboratively learn a model while maintaining data privacy. However, FL usually faces a critical challenge with limited labeled data, making semi-supervised learning (SSL) crucial for utilizing abundant unlabeled data. The integration of SSL within the federated framework gives rise to federated semi-supervised learning (FSSL), a novel approach that exploits unlabeled data across devices without compromising privacy. This paper systematically explores FSSL, shedding light on its four basic problem settings that commonly appear in real-world scenarios. By examining the unique challenges, generic solutions, and representative methods tailored for each setting of FSSL, we aim to provide a cohesive overview of the current state of the art and pave the way for future research directions in this promising field.},
+  doi          = {10.24963/ijcai.2024/911},
   bibtex_show  = {true},
-  html         = {https://www.ijcai.org/proceedings/2024/911},
   pdf          = {https://www.ijcai.org/proceedings/2024/0911.pdf},
   selected     = {false}
 }
@@ -76,10 +118,10 @@
   year         = {2024},
   abbr         = {NEUNET},
   abstract     = {Heterogeneous graph neural networks (HGNNs) were proposed for representation learning on structural data with multiple types of nodes and edges. To deal with the performance degradation issue when HGNNs become deep, researchers combine metapaths into HGNNs to associate nodes closely related in semantics but far apart in the graph. However, existing metapath-based models suffer from either information loss or high computation costs. To address these problems, we present a novel Metapath Context Convolution-based Heterogeneous Graph Neural Network (MECCH). MECCH leverages metapath contexts, a new kind of graph structure that facilitates lossless node information aggregation while avoiding any redundancy. Specifically, MECCH applies three novel components after feature preprocessing to extract comprehensive information from the input graph efficiently: (1) metapath context construction, (2) metapath context encoder, and (3) convolutional metapath fusion. Experiments on five real-world heterogeneous graph datasets for node classification and link prediction show that MECCH achieves superior prediction accuracy compared with state-of-the-art baselines with improved computational efficiency.},
+  doi          = {10.1016/j.neunet.2023.11.030},
   arxiv        = {2211.12792},
   bibtex_show  = {true},
-  html         = {https://doi.org/10.1016/j.neunet.2023.11.030},
-  pdf          = {https://arxiv.org/pdf/2211.12792.pdf},
+  pdf          = {https://arxiv.org/pdf/2211.12792},
   code         = {https://github.com/cynricfu/MECCH},
   selected     = {true}
 }
@@ -94,10 +136,10 @@
   year         = {2023},
   abbr         = {IJCAI},
   abstract     = {Heterogeneous graph neural networks (HGNNs) can learn from typed and relational graph data more effectively than conventional GNNs. With larger parameter spaces, HGNNs may require more training data, which is often scarce in real-world applications due to privacy regulations (e.g., GDPR). Federated graph learning (FGL) enables multiple clients to train a GNN collaboratively without sharing their local data. However, existing FGL methods mainly focus on homogeneous GNNs or knowledge graph embeddings; few have considered heterogeneous graphs and HGNNs. In federated heterogeneous graph learning, clients may have private graph schemas. Conventional FL/FGL methods attempting to define a global HGNN model would violate schema privacy. To address these challenges, we propose FedHGN, a novel and general FGL framework for HGNNs. FedHGN adopts schema-weight decoupling to enable schema-agnostic knowledge sharing and employs coefficients alignment to stabilize the training process and improve HGNN performance. With better privacy preservation, FedHGN consistently outperforms local training and conventional FL methods on three widely adopted heterogeneous graph datasets with varying client numbers.},
+  doi          = {10.24963/ijcai.2023/412},
   arxiv        = {2305.09729},
   bibtex_show  = {true},
-  html         = {https://doi.org/10.24963/ijcai.2023/412},
-  pdf          = {https://arxiv.org/pdf/2305.09729.pdf},
+  pdf          = {https://www.ijcai.org/proceedings/2023/0412.pdf},
   code         = {https://github.com/cynricfu/FedHGN},
   selected     = {true}
 }
@@ -115,10 +157,10 @@
   year         = {2020},
   abbr         = {WWW},
   abstract     = {A large number of real-world graphs or networks are inherently heterogeneous, involving a diversity of node types and relation types. Heterogeneous graph embedding is to embed rich structural and semantic information of a heterogeneous graph into low-dimensional node representations. Existing models usually define multiple metapaths in a heterogeneous graph to capture the composite relations and guide neighbor selection. However, these models either omit node content features, discard intermediate nodes along the metapath, or only consider one metapath. To address these three limitations, we propose a new model named Metapath Aggregated Graph Neural Network (MAGNN) to boost the final performance. Specifically, MAGNN employs three major components, i.e., the node content transformation to encapsulate input node attributes, the intra-metapath aggregation to incorporate intermediate semantic nodes, and the inter-metapath aggregation to combine messages from multiple metapaths. Extensive experiments on three real-world heterogeneous graph datasets for node classification, node clustering, and link prediction show that MAGNN achieves more accurate prediction results than state-of-the-art baselines.},
+  doi          = {10.1145/3366423.3380297},
   arxiv        = {2002.01680},
   bibtex_show  = {true},
-  html         = {https://doi.org/10.1145/3366423.3380297},
-  pdf          = {https://arxiv.org/pdf/2002.01680.pdf},
+  pdf          = {https://arxiv.org/pdf/2002.01680},
   code         = {https://github.com/cynricfu/MAGNN},
   altmetric    = {75101511},
   dimensions   = {pub.1127360431},

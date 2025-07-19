@@ -1,6 +1,6 @@
-"ArXiv":
+"arXiv":
   url: https://arxiv.org/
-  color: "#b31b1b"
+  color: "#B31B1B"
 
 "WWW":
   url: https://thewebconf.org/
@@ -22,3 +22,7 @@
 "TIST":
   url: https://dl.acm.org/journal/tist
   color: "#206025"
+
+"FedKDD":
+  url: https://fedkdd.github.io/
+  color: "#0075C4"
