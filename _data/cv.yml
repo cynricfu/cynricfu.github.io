@@ -8,7 +8,7 @@
     - name: Languages
       value: Chinese, English
     - name: Skill Set
-      value: Python, C/C++, Linux, LaTex, Markdown, PyTorch, DGL, TensorFlow
+      value: Python, Linux, PyTorch, Transformers, DeepSpeed, DGL, LaTex
 
 - title: Academic Interests
   type: nested_list
