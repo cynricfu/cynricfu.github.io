@@ -1,83 +1,34 @@
-"chen":
-  - firstname: ["Guanzhong"]
-    url: https://stupidtrees.github.io/
-  - firstname: ["Ran"]
-    url: https://scholar.google.com/citations?user=HFo2pK4AAAAJ
-  - firstname: ["Yankai"]
-    url: https://yankai-chen.github.io/
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"gong":
-  - firstname: ["Cheng"]
-    url: https://chenggong1995.github.io/cg.io/
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"hu":
-  - firstname: ["Shoubo"]
-    url: https://dblp.org/pid/218/9202.html
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"king":
-  - firstname: ["Irwin"]
-    url: https://www.cse.cuhk.edu.hk/irwin.king/
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-"koniusz":
-  - firstname: ["Piotr"]
-    url: https://www.koniusz.com/
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"liu":
-  - firstname: ["Jiahong"]
-    url: https://www.researchgate.net/profile/Jiahong-Liu-5
-  - firstname: ["Rui"]
-    url: https://scholar.google.com/citations?user=ADP-1goAAAAJ
-  - firstname: ["Yaofang"]
-    url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
-  - firstname: ["Ziru"]
-    url: https://scholar.google.com/citations?user=7H-1sukAAAAJ
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"luo":
-  - firstname: ["Jinglong"]
-    url: https://dblp.org/pid/257/4192.html
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"meng":
-  - firstname: ["Ziqiao"]
-    url: https://scholar.google.com/citations?user=NY3OA7sAAAAJ
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"song":
-  - firstname: ["Zixing"]
-    url: https://www.wolfson.cam.ac.uk/people/dr-zixing-song
-
-"tu":
-  - firstname: ["Dandan"]
-    url: https://scholar.google.com/citations?user=nf8bdFYAAAAJ
-
-"xu":
-  - firstname: ["Zenglin"]
-    url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
-
-"yang":
-  - firstname: ["Menglin"]
-    url: https://yangmenglinsite.github.io/
-  - firstname: ["Xiangli"]
-    url: https://scholar.google.com/citations?user=PWbQtnoAAAAJ
-
-"ying":
-  - firstname: ["Rex"]
-    url: https://www.cs.yale.edu/homes/ying-rex/
-
-"zeng":
-  - firstname: ["Dun"]
-    url: https://dunzeng.github.io/
-
-"zhang":
-  - firstname: ["Jiani"]
-    url: https://jennyzhang0215.github.io/
-  - firstname: ["Qingfu"]
-    url: https://scholar.google.com/citations?user=nhL9PHwAAAAJ
-  - firstname: ["Suiyun"]
-    url: https://scholar.google.com/citations?user=djYpGOIAAAAJ
-  - firstname: ["Weixi"]
-    url: https://orcid.org/0009-0007-4769-2779
-  - firstname: ["Yifei"]
-    url: https://yifeiacc.github.io/
-
-"zhu":
-  - firstname: ["Hao"]
-    url: https://scholar.google.com/citations?user=cpee-44AAAAJ
+"planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
