@@ -1,3 +1,7 @@
+"bai":
+  - firstname: ["Haoli"]
+    url: https://haolibai.github.io/
+
 "chen":
   - firstname: ["Guanzhong"]
     url: https://stupidtrees.github.io/
@@ -22,11 +26,15 @@
   - firstname: ["Piotr"]
     url: https://www.koniusz.com/
 
+"kong":
+  - firstname: ["Lingpeng"]
+    url: https://ikekonglp.github.io/
+
 "liu":
   - firstname: ["Jiahong"]
     url: https://www.researchgate.net/profile/Jiahong-Liu-5
   - firstname: ["Rui"]
-    url: https://scholar.google.com/citations?user=ADP-1goAAAAJ
+    url: https://ruiliu-ai.github.io/
   - firstname: ["Yaofang"]
     url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
   - firstname: ["Ziru"]
@@ -43,6 +51,12 @@
 "song":
   - firstname: ["Zixing"]
     url: https://www.wolfson.cam.ac.uk/people/dr-zixing-song
+
+"tao":
+  - firstname: ["Chaofan"]
+    url: https://chaofantao.top/
+  - firstname: ["Xijia"]
+    url: https://xijia-tao.github.io/
 
 "tu":
   - firstname: ["Dandan"]
