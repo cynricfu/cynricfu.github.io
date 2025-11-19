@@ -10,6 +10,10 @@
   - firstname: ["Yankai"]
     url: https://yankai-chen.github.io/
 
+"fang":
+  - firstname: ["Rongyao"]
+    url: https://rongyaofang.github.io/
+
 "gong":
   - firstname: ["Cheng"]
     url: https://chenggong1995.github.io/cg.io/
@@ -17,6 +21,12 @@
 "hu":
   - firstname: ["Shoubo"]
     url: https://dblp.org/pid/218/9202.html
+  - firstname: ["Yuxuan"]
+    url: https://scholar.google.com/citations?user=nk2R0cMAAAAJ
+
+"huang":
+  - firstname: ["Linjiang"]
+    url: https://leonhlj.github.io/
 
 "king":
   - firstname: ["Irwin"]
@@ -30,15 +40,25 @@
   - firstname: ["Lingpeng"]
     url: https://ikekonglp.github.io/
 
+"li":
+  - firstname: ["Hongsheng"]
+    url: https://www.ee.cuhk.edu.hk/~hsli/
+
 "liu":
   - firstname: ["Jiahong"]
     url: https://www.researchgate.net/profile/Jiahong-Liu-5
   - firstname: ["Rui"]
     url: https://ruiliu-ai.github.io/
+  - firstname: ["Si"]
+    url: https://openreview.net/profile?id=~Si_Liu5
   - firstname: ["Yaofang"]
     url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
   - firstname: ["Ziru"]
     url: https://scholar.google.com/citations?user=7H-1sukAAAAJ
+
+"lu":
+  - firstname: ["Zimu"]
+    url: https://scholar.google.com/citations?user=ewuGUCwAAAAJ
 
 "luo":
   - firstname: ["Jinglong"]
@@ -47,6 +67,14 @@
 "meng":
   - firstname: ["Ziqiao"]
     url: https://scholar.google.com/citations?user=NY3OA7sAAAAJ
+
+"ren":
+  - firstname: ["Houxing"]
+    url: https://scholar.google.com/citations?user=reSJxKkAAAAJ
+
+"shi":
+  - firstname: ["Weikang"]
+    url: https://scholar.google.com/citations?user=GjRC15wAAAAJ
 
 "song":
   - firstname: ["Zixing"]
@@ -58,9 +86,25 @@
   - firstname: ["Xijia"]
     url: https://xijia-tao.github.io/
 
+"teng":
+  - firstname: ["Yihua"]
+    url: https://scholar.google.com/citations?user=4cDSq0AAAAAJ
+
+"tian":
+  - firstname: ["Changyao"]
+    url: https://scholar.google.com/citations?user=kQ3AisQAAAAJ
+
 "tu":
   - firstname: ["Dandan"]
     url: https://scholar.google.com/citations?user=nf8bdFYAAAAJ
+
+"wang":
+  - firstname: ["Ke"]
+    url: https://wangk.org/
+
+"wu":
+  - firstname: ["Jihao"]
+    url: https://scholar.google.com/citations?user=qVvQl58AAAAJ
 
 "xu":
   - firstname: ["Zenglin"]
@@ -91,6 +135,10 @@
     url: https://orcid.org/0009-0007-4769-2779
   - firstname: ["Yifei"]
     url: https://yifeiacc.github.io/
+
+"zhou":
+  - firstname: ["Aojun"]
+    url: https://scholar.google.com/citations?user=cC8lXi8AAAAJ
 
 "zhu":
   - firstname: ["Hao"]
