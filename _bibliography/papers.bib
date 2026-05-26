@@ -1,6 +1,59 @@
 ---
 ---
 
+@article{DBLP:journals/corr/abs-2603-01940,
+  author       = {Jinpeng Chen* and
+                  Cheng Gong* and
+                  Hanbo Li* and
+                  Ziru Liu and
+                  Zichen Tian and
+                  Xinyu Fu and
+                  Shi Wu and
+                  Chenyang Zhang and
+                  Wu Zhang and
+                  Suiyun Zhang and
+                  Dandan Tu and
+                  Rui Liu},
+  title        = {CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification},
+  journal      = {CoRR},
+  volume       = {abs/2603.01940},
+  year         = {2026},
+  abbr         = {arXiv},
+  abstract     = {Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce CoVe (Constraint-Verification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging τ2-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact CoVe-4B model achieves success rates of 43.0% and 59.4% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to 17× its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.},
+  doi          = {10.48550/ARXIV.2603.01940},
+  arxiv        = {2603.01940},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2603.01940},
+  html         = {https://cove-agent.github.io/}
+}
+
+@article{DBLP:journals/corr/abs-2512-02044,
+  author       = {Kecheng Chen* and
+                  Ziru Liu* and
+                  Xijia Tao and
+                  Hui Liu and
+                  Xinyu Fu and
+                  Suiyun Zhang and
+                  Dandan Tu and
+                  Lingpeng Kong and
+                  Rui Liu and
+                  Haoliang Li},
+  title        = {Beyond Confidence: Adaptive and Coherent Decoding for Diffusion Language
+                  Models},
+  journal      = {CoRR},
+  volume       = {abs/2512.02044},
+  year         = {2025},
+  abbr         = {arXiv},
+  abstract     = {Diffusion Language Models (DLMs) have recently achieved significant success due to their any-order generation capabilities. However, existing inference methods typically rely on local, immediate-step metrics—such as confidence or entropy—which inherently lack a more reliable perspective, leading to sub-optimal generation quality. To address this, we propose Coherent Contextual Decoding (CCD), a novel inference framework built upon two core innovations. First, CCD bypasses the potential bias of the single context to leverage historical contexts for approximating the marginal distribution of token prediction, leading to better sequence coherence and the early rejection of sub-optimal paths. More importantly, we demonstrate that this mechanism is theoretically equivalent to modeling the consistency of historical steps via the conditional mutual information between contexts and token predictions. Finally, CCD achieves significantly milder performance degradation under highly parallel decoding scenarios compared to baselines. Empirically, our method achieves a simultaneous enhancement in both inference speed and performance across diverse benchmarks on Dream and LLaDA.},
+  doi          = {10.48550/ARXIV.2512.02044},
+  arxiv        = {2512.02044},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2512.02044},
+  code         = {https://github.com/tonyckc/CCD-DLM-code},
+  html         = {https://tonyckc.github.io/CCD-DLM-Project/},
+  selected     = {true}
+}
+
 @article{DBLP:journals/corr/abs-2510-14958,
   author       = {Weikang Shi* and
                   Aldrich Yu* and
@@ -28,7 +81,7 @@
   bibtex_show  = {true},
   pdf          = {https://arxiv.org/pdf/2510.14958},
   code         = {https://github.com/shiwk24/MathCanvas},
-  html        = {https://mathcanvas.github.io/},
+  html         = {https://mathcanvas.github.io/},
   selected     = {true}
 }
 

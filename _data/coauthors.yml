@@ -5,6 +5,10 @@
 "chen":
   - firstname: ["Guanzhong"]
     url: https://stupidtrees.github.io/
+  - firstname: ["Jinpeng"]
+    url: https://jinpeng0528.github.io/
+  - firstname: ["Kecheng"]
+    url: https://tonyckc.github.io/
   - firstname: ["Ran"]
     url: https://scholar.google.com/citations?user=HFo2pK4AAAAJ
   - firstname: ["Yankai"]
@@ -41,10 +45,16 @@
     url: https://ikekonglp.github.io/
 
 "li":
+  - firstname: ["Hanbo"]
+    url: https://scholar.google.com/citations?user=jyJ2XGEAAAAJ
+  - firstname: ["Haoliang"]
+    url: https://hlli1991.github.io/
   - firstname: ["Hongsheng"]
     url: https://www.ee.cuhk.edu.hk/~hsli/
 
 "liu":
+  - firstname: ["Hui"]
+    url: https://scholars.cityu.edu.hk/en/persons/liuhui3/
   - firstname: ["Jiahong"]
     url: https://www.researchgate.net/profile/Jiahong-Liu-5
   - firstname: ["Rui"]
@@ -125,6 +135,8 @@
     url: https://dunzeng.github.io/
 
 "zhang":
+  - firstname: ["Chenyang"]
+    url: https://scholar.google.com/citations?user=McBDB18AAAAJ
   - firstname: ["Jiani"]
     url: https://jennyzhang0215.github.io/
   - firstname: ["Qingfu"]
@@ -133,6 +145,8 @@
     url: https://scholar.google.com/citations?user=djYpGOIAAAAJ
   - firstname: ["Weixi"]
     url: https://orcid.org/0009-0007-4769-2779
+  - firstname: ["Wu"]
+    url: https://www.linkedin.com/in/wu-zhang-512507112/
   - firstname: ["Yifei"]
     url: https://yifeiacc.github.io/
 
