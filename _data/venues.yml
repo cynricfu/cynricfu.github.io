@@ -26,3 +26,7 @@
 "FedKDD":
   url: https://fedkdd.github.io/
   color: "#0075C4"
+
+"ACL":
+  url: https://aclanthology.org/
+  color: "#ED1C24"
