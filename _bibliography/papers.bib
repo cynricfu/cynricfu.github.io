@@ -1,6 +1,78 @@
 ---
 ---
 
+@article{DBLP:journals/corr/abs-2606-20333,
+  author       = {Xijia Tao* and
+                  Yihua Teng* and
+                  Xinyu Fu* and
+                  Ziru Liu and
+                  Kecheng Chen and
+                  Yuzhi Zhao and
+                  Suiyun Zhang and
+                  Rui Liu† and
+                  Lingpeng Kong†},
+  title        = {SoftSkill: Behavioral Compression for Contextual Adaptation},
+  journal      = {CoRR},
+  volume       = {abs/2606.20333},
+  year         = {2026},
+  abbr         = {arXiv},
+  abstract     = {Agent skills are commonly deployed as natural-language Markdown files that encode answer policies, evidence-use habits, and task procedures. These files are readable and portable, but they are consumed indirectly: for each task instance, a frozen language model must translate a long textual artifact into generation-time behavior. This paper asks whether a natural-language skill can instead initialize a compact continuous context object, refined by a trainable soft delta while the base model remains frozen. We propose SoftSkill, a frozen-backbone method that tunes such soft skills with next-token prediction and deploys them as latent behavioral priors at inference time. In our main single-round setting, a length-32 SoftSkill prefix on Qwen3.5-4B improves over no-skill prompting by 8.3 points on SearchQA, 42.1 points on LiveMath, and 1.3 points on DocVQA. Relative to SkillOpt, SoftSkill improves accuracy by 5.2 points on SearchQA and 12.5 points on LiveMath, while replacing hundreds to thousands of Markdown skill tokens with a few virtual tokens. We further study agentic execution as a harder boundary case, where sparse trajectory imitation provides useful signal but does not yet robustly compress long-horizon procedural behavior. More broadly, the results suggest that some task skills are better treated not as additional Markdown to be reinterpreted at inference time, but as compact latent controls over how a frozen model enters the task.},
+  doi          = {10.48550/ARXIV.2606.20333},
+  arxiv        = {2606.20333},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2606.20333},
+  code         = {https://github.com/xijia-tao/SoftSkill}
+}
+
+@article{DBLP:journals/corr/abs-2605-29534,
+  author       = {Yuxiang Chai and
+                  Han Xiao and
+                  Xinyu Fu and
+                  Jinpeng Chen and
+                  Rui Liu and
+                  Hongsheng Li†},
+  title        = {{UI-KOBE:} Knowledge-Oriented Behavior Exploration for Lightweight
+                  Graph-Guided {GUI} Agents},
+  journal      = {CoRR},
+  volume       = {abs/2605.29534},
+  year         = {2026},
+  abbr         = {arXiv},
+  abstract     = {Recent advances in mobile GUI agents have shown strong potential for automating mobile tasks, but most effective systems still depend on large vision-language models for screenshot understanding and long-horizon planning. Small GUI agents that can be deployed directly on mobile devices are more attractive for practical use, offering lower inference cost and better protection of sensitive on-device information. However, due to limited model capacity, such lightweight agents remain unreliable when planning and executing GUI tasks end-to-end from screenshots alone. We propose Knowledge-Oriented Behavior Exploration (UI-KOBE), a framework that improves lightweight mobile GUI agents with reusable app-specific graph knowledge. UI-KOBE first autonomously explores a mobile application and constructs an app knowledge graph, where nodes represent distinct UI states and edges represent executable transitions. At runtime, a lightweight GUI agent uses the graph as external guidance: given a user task and the current screenshot, it identifies the current graph node and selects among self-loop actions, neighboring transitions, task completion, or fallback free actions associated with that node. By supporting runtime decisions with app-specific graph guidance, UI-KOBE reduces the burden of end-to-end GUI planning and helps lightweight models perform mobile GUI tasks more effectively, offering a practical step toward efficient, interpretable, and privacy-conscious on-device GUI agents.},
+  doi          = {10.48550/ARXIV.2605.29534},
+  arxiv        = {2605.29534},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2605.29534},
+  code         = {https://github.com/YuxiangChai/UI-KOBE}
+}
+
+@article{DBLP:journals/corr/abs-2605-11854,
+  author       = {Kecheng Chen* and
+                  Ziru Liu* and
+                  Xijia Tao and
+                  Hui Liu and
+                  Yibing Liu and
+                  Xinyu Fu and
+                  Shi Wu and
+                  Suiyun Zhang and
+                  Dandan Tu† and
+                  Lingpeng Kong and
+                  Rui Liu† and
+                  Haoliang Li†},
+  title        = {Self-Distilled Trajectory-Aware Boltzmann Modeling: Bridging the Training-Inference
+                  Discrepancy in Diffusion Language Models},
+  journal      = {CoRR},
+  volume       = {abs/2605.11854},
+  year         = {2026},
+  abbr         = {arXiv},
+  abstract     = {Diffusion Language Models (DLMs) have recently emerged as a promising alternative to autoregressive language models, offering stronger global awareness and highly parallel generation. However, post-training DLMs with standard Negative Evidence Lower Bound (NELBO)-based supervised fine-tuning remains inefficient: training reconstructs randomly masked tokens in a single step, whereas inference follows a confidence-guided, multi-step easy-to-hard denoising trajectory. Recent trajectory-based self-distillation methods exploit such inference trajectories mainly for sampling-step compression and acceleration, often improving decoding efficiency without substantially enhancing the model's underlying capability, and may even degrade performance under full diffusion decoding. In this work, we ask whether self-distilled trajectories can be used not merely for faster inference, but for genuine knowledge acquisition. Although these trajectories lie on the pretrained DLM's own distributional manifold and thus offer a potentially lower optimization barrier, we find that naively fine-tuning on them with standard NELBO objectives yields only marginal gains. To address this limitation, we propose Trajectory-Aligned optimization via Boltzmann Modeling (TABOM), a self-distilled trajectory-based post-training framework that aligns training with the easy-to-hard structure of inference. TABOM models the inference unmasking preference as a Boltzmann distribution over predictive entropies and derives a tractable pairwise ranking objective to align the model's certainty ordering with the observed decoding trajectory. Empirically, TABOM achieves substantial gains in new domains, expands the effective knowledge boundary of DLMs, and significantly mitigates catastrophic forgetting compared with standard SFT.},
+  doi          = {10.48550/ARXIV.2605.11854},
+  arxiv        = {2605.11854},
+  bibtex_show  = {true},
+  pdf          = {https://arxiv.org/pdf/2605.11854},
+  code         = {https://github.com/tonyckc/TABOM},
+  html         = {https://tonyckc.github.io/TABOM-web/}
+}
+
 @article{DBLP:journals/corr/abs-2603-01940,
   author       = {Jinpeng Chen* and
                   Cheng Gong* and
@@ -12,8 +84,8 @@
                   Chenyang Zhang and
                   Wu Zhang and
                   Suiyun Zhang and
-                  Dandan Tu and
-                  Rui Liu},
+                  Dandan Tu† and
+                  Rui Liu†},
   title        = {CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification},
   journal      = {CoRR},
   volume       = {abs/2603.01940},
@@ -36,8 +108,8 @@
                   Suiyun Zhang and
                   Dandan Tu and
                   Lingpeng Kong and
-                  Rui Liu and
-                  Haoliang Li},
+                  Rui Liu† and
+                  Haoliang Li†},
   title        = {Beyond Confidence: Adaptive and Coherent Decoding for Diffusion Language
                   Models},
   journal      = {CoRR},

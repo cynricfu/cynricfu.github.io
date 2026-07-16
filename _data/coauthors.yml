@@ -2,6 +2,10 @@
   - firstname: ["Haoli"]
     url: https://haolibai.github.io/
 
+"chai":
+  - firstname: ["Yuxiang"]
+    url: https://www.yxchai.com/
+
 "chen":
   - firstname: ["Guanzhong"]
     url: https://stupidtrees.github.io/
@@ -63,6 +67,8 @@
     url: https://openreview.net/profile?id=~Si_Liu5
   - firstname: ["Yaofang"]
     url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
+  - firstname: ["Yibing"]
+    url: https://bierone.github.io/
   - firstname: ["Ziru"]
     url: https://scholar.google.com/citations?user=7H-1sukAAAAJ
 
@@ -115,6 +121,10 @@
 "wu":
   - firstname: ["Jihao"]
     url: https://scholar.google.com/citations?user=qVvQl58AAAAJ
+
+"xiao":
+  - firstname: ["Han"]
+    url: https://scholar.google.com/citations?user=N-u2i-QAAAAJ
 
 "xu":
   - firstname: ["Zenglin"]
