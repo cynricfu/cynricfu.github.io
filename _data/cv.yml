@@ -1,166 +1,189 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Full Name
-      value: Xinyu Fu
-    # - name: Date of Birth
-    #   value: 14th March 1879
-    - name: Languages
-      value: Chinese, English
-    - name: Skill Set
-      value: Python, Linux, PyTorch, Transformers, DeepSpeed, DGL, LaTex
+cv:
+  name: Albert Einstein
+  label: Scientist
+  email: einstein@example.com
+  location: Princeton, NJ
+  image: ""
+  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Heterogeneous Graph Neural Networks
-      items:
-        - Developing GNN models for graphs with multiple node/edge types
-    - title: Federated Graph Learning
-      items:
-        - Privacy-preserving graph representation learning in a system with multiple participants
+  social_networks:
+    - network: X
+      username: AlbertEinstein
+    - network: GitHub
+      username: example
+    - network: LinkedIn
+      username: example
 
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Computer Science
-      institution: The Chinese University of Hong Kong
-      year: 2018 - 2024
-      description:
-        - Supervised by Prof. Irwin King
-        # - "Research interests: heterogeneous graph neural network, federated graph learning"
-    - title: BSc in Computer Science
-      institution: The Chinese University of Hong Kong
-      year: 2016 - 2018
-      description:
-        - "GPA: 3.71/4.00"
-        - Graduated with First Class Honours
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    - title: CUHK-SYSU Joint Engineering Undergraduate Programme
-      institution: Sun Yat-Sen University
-      year: 2014 - 2016
-      description:
-        # - Electronic Information Science and Technology
-        - "GPA: 3.9/4.0"
+  address:
+    street: 2712 Broadway St
+    city: San Francisco
+    region: California
+    postalCode: CA 94115
+    countryCode: US
 
-- title: Work Experience
-  type: time_table
-  contents:
-    - title: Research Engineer
-      institution: Huawei, Hong Kong
-      year: 2024/10 - now
-      description:
-        - Research and development for Huawei's Xiaoyi AI virtual assistant
-    - title: Applied Scientist Intern
-      institution: AWS, Shanghai
-      year: 2020/5 - 2020/11
-      description:
-        - Drug Repurposing via Graph Representation Learning on Biomedical KG
-        # - Description 2.
-        # - title: Description 3.
-        #   contents:
-        #     - Sub-description 1.
-        #     - Sub-description 2.
-    - title: Back-end Developer Intern
-      institution: Tencent, Shenzhen
-      year: 2018/5 - 2018/7
-      description:
-        - Low-quality Web Novel Comments Filtering
+  sections:
+    Education:
+      - institution: University of Zurich
+        location: Zurich, Switzerland
+        url: https://www.uzh.ch/
+        area: Physics
+        studyType: PhD
+        start_date: 1900
+        end_date: 1905
+        score: ""
+        courses: "Theory of Relativity"
+        highlights:
+          - Description 1.
+          - Description 2.
 
-    # - title: Director
-    #   institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-    #   year: 1917-1933
+      - institution: Eidgenössische Technische Hochschule
+        location: Zurich, Switzerland
+        area: Physics
+        studyType: Federal teaching diploma
+        start_date: 1896
+        end_date: 1900
+        highlights:
+          - Description 1.
+          - Description 2.
 
-    # - title: Professor of Theoretical Physics
-    #   institution: Karl-Ferdinand University, Prague, Czechoslovakia
-    #   year: 1911 - 1917
-    #   description:
+    Experience:
+      - company: Institute for Advanced Study, Princeton University
+        position: Professor of Theoretical Physics
+        location: Princeton University, NJ
+        start_date: 1933
+        end_date: 1955
+        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+        highlights:
+          - Relativity
+          - Description 2.
 
-    # - title: Associate Professor of Theoretical Physics
-    #   institution: University of Zurich, Zurich, Switzerland
-    #   year: 1909 - 1911
+      - company: California Institute of Technology
+        position: Visiting Professor
+        location: Pasadena, California, US
+        start_date: 1933
+        end_date: 1933
+        highlights:
+          - Description 1.
+          - Description 2.
 
-# - title: Open Source Projects
-#   type: time_table
-#   contents:
-#     - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-#       year: 2015-now
-#       description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+      - company: Kaiser Wilhelm Institute for Physics
+        position: Director
+        location: Berlin, Germany
+        start_date: 1917
+        end_date: 1933
 
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - title: Best TA Award
-      year: 2019
-      institution: Department of Computer Science and Engineering, CUHK
-    - title: Dean's List
-      year: 2018
-      institution: Faculty of Engineering, CUHK
-    - title: ELITE Stream Student Scholarship
-      year: 2017
-      institution: Faculty of Engineering, CUHK
-    - title: Dean's List
-      year: 2017
-      institution: Faculty of Engineering, CUHK
-    - title: Honorable Mention
-      year: 2016
-      institution: The Mathematical Contest in Modeling
+      - company: Karl-Ferdinand University
+        position: Professor of Theoretical Physics
+        location: Prague, Czechoslovakia
+        start_date: 1911
+        end_date: 1917
 
-- title: Talks
-  type: time_table
-  contents:
-    - title: "AI for non-AI Researchers"
-      year: 2023
-      institution: CUHK Library Research Computing Café
-      # https://www.lib.cuhk.edu.hk/en/about/events/research-cafe-on-how-ai-can-empower-your-research/
-    - title: "Trustworthy Federated Learning: Concepts, Methods, Applications, and Beyond"
-      year: 2023
-      institution: IJCNN 2023
-    - title: Heterogeneous Graph Neural Networks Recent Research Progress
-      year: 2023
-      institution: Learning on Graphs Seminar
-    - title: Deep Learning on Graphs
-      year: 2022
-      institution: DeepLearn 2022 Summer
-    - title: "Deep Learning on Graphs: Methods and Applications"
-      year: 2020
-      institution: ICONIP 2020
+      - company: University of Zurich
+        position: Associate Professor of Theoretical Physics
+        location: Zurich, Switzerland
+        start_date: 1909
+        end_date: 1911
 
-- title: Services
-  type: nested_list
-  contents:
-    - title: Conference Reviewer
-      items:
-        - NeurIPS (2021), ICLR (2024, 2025), WWW (2022, 2023, 2024, 2025), KDD (2024), WSDM (2023), AAAI (2023, 2024, 2025), IJCAI (2025), ECML-PKDD (2023)
-    - title: Journal Reviewer
-      items:
-        - AIJ, TKDE, TPAMI, TSE, TKDD, TNNLS, TCAD, TSC, NEUNET, PR, FGCS, TNSE
+    Volunteer:
+      - company: People's Climate March
+        position: Lead Organizer
+        location: Zurich, Switzerland
+        start_date: 2014-04-01
+        end_date: 2015-07-01
+        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+        highlights:
+          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+          - "Men of the year 2014 by Time magazine"
 
-- title: Teaching Experience
-  type: time_table
-  contents:
-    - title: CSCI2100A/ESTR2102 Data Structures
-      institution: The Chinese University of Hong Kong
-      year: 2019/20/21/22
-      description:
-        - Lead TA, responsible for some tutorials, the course website, and the online judge system
-        - Taught by Prof. Irwin King
-    - title: CSCI3230/ESTR3108 Fundamentals of Artificial Intelligence
-      institution: The Chinese University of Hong Kong
-      year: 2018/20
-      description:
-        - TA, responsible for the TensorFlow tutorial and the project grading system
-        - Taught by Prof. Kwong-Sak Leung
-    - title: ENGG5108 Big Data Analytics
-      institution: The Chinese University of Hong Kong
-      year: 2019
-      description:
-        - TA, responsible for the Python and R tutorials and the course website
-        - Taught by Prof. Irwin King
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    Awards:
+      - title: Nobel Prize in Physics
+        authors:
+          - "Royal Swedish Academy of Sciences"
+        date: 1921-11-01
+        awarder: Royal Swedish Academy of Sciences
+        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+
+      - title: Max Planck Medal
+        authors:
+          - "German Physical Society"
+        date: 2029
+        awarder: German Physical Society
+        summary: Awarded for outstanding scientific achievement
+
+    Publications:
+      - title: Zur Elektrodynamik bewegter Körper
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-06-30
+        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+
+      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1905-03-18
+        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+
+      - title: Die Grundlage der allgemeinen Relativitätstheorie
+        authors:
+          - Albert Einstein
+        publisher: Annalen der Physik
+        releaseDate: 1916-03-20
+        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+
+    Skills:
+      - name: Physics
+        level: Master
+        icon: fa-solid fa-hashtag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    Languages:
+      - name: German
+        summary: "Native speaker"
+
+      - name: English
+        summary: "Fluent"
+
+    Interests:
+      - name: Physics
+        icon: fa-solid fa-tag
+        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+
+    Certificates:
+      - name: Machine Learning
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-location-dot
+
+      - name: Quantum Computing
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-tag
+
+      - name: Quantum Information
+        date: 2018-01-01
+        issuer: Stanford University
+        icon: fa-solid fa-envelope
+
+    Projects:
+      - name: Quantum Computing
+        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+        highlights:
+          - Quantum Teleportation
+          - Quantum Cryptography
+        start_date: 2018-01-01
+        end_date: 2018-01-01
+
+    References:
+      - name: Professor John Doe
+        icon: fa-solid fa-laptop
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+
+      - name: Professor Jane Smith
+        icon: fa-solid fa-thumbtack
+        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
