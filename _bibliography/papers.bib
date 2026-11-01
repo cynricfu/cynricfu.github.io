@@ -1,369 +1,115 @@
 ---
 ---
 
-@article{Boogu,
-  author       = {Boogu Team},
-  title        = {Boogu-Image-0.1: Boosting Open-Source Unified Multimodal Understanding and Generation},
-  journal      = {CoRR},
-  volume       = {abs/2607.13125},
-  year         = {2026},
-  abbr         = {arXiv},
-  abstract     = {We introduce Boogu-Image-0.1, an open-source unified multimodal understanding and generation model family, comprising Base, Turbo, Edit, and Edit-Turbo variants. It delivers competitive performance in high-quality text-to-image generation, fast inference, instruction-based editing, and bilingual (Chinese-English) text rendering. Closed-source multimodal systems like Nano-Banana-Pro and GPT-Image-2 achieve strong performance through system-level integration rather than a single model, yet their internal practices remain largely undisclosed. In this work, we demonstrate that targeted improvements in model understanding, data quality, and training pipelines, coupled with agentic inference-time scaling, can substantially enhance generation and editing performance even under highly constrained compute budgets. Comprehensive evaluations show that Boogu-Image-0.1 consistently matches or surpasses other open-source models across standard benchmarks, and achieves results approaching leading closed-source systems. Notably, this is accomplished with only 208.62 million unique images. The base model's theoretical training cost is only approximately $400K. We share practical discussions that we believe are valuable to the broader research community, and release weights, code, and recipes under Apache 2.0 to advance the open ecosystem for unified multimodal understanding and generation.},
-  doi          = {10.48550/ARXIV.2607.13125},
-  arxiv        = {2607.13125},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2607.13125},
-  code         = {https://github.com/Boogu-Project/Boogu-Image},
-  html         = {https://boogu.org/},
-  selected     = {true}
+@string{aps = {American Physical Society,}}
+
+@book{einstein1920relativity,
+  title     = {Relativity: the Special and General Theory},
+  author    = {Einstein, Albert},
+  year      = {1920},
+  publisher = {Methuen & Co Ltd},
+  html      = {relativity.html}
 }
 
-@article{DBLP:journals/corr/abs-2606-20333,
-  author       = {Xijia Tao* and
-                  Yihua Teng* and
-                  Xinyu Fu* and
-                  Ziru Liu and
-                  Kecheng Chen and
-                  Yuzhi Zhao and
-                  Suiyun Zhang and
-                  Rui Liu† and
-                  Lingpeng Kong†},
-  title        = {SoftSkill: Behavioral Compression for Contextual Adaptation},
-  journal      = {CoRR},
-  volume       = {abs/2606.20333},
-  year         = {2026},
-  abbr         = {arXiv},
-  abstract     = {Agent skills are commonly deployed as natural-language Markdown files that encode answer policies, evidence-use habits, and task procedures. These files are readable and portable, but they are consumed indirectly: for each task instance, a frozen language model must translate a long textual artifact into generation-time behavior. This paper asks whether a natural-language skill can instead initialize a compact continuous context object, refined by a trainable soft delta while the base model remains frozen. We propose SoftSkill, a frozen-backbone method that tunes such soft skills with next-token prediction and deploys them as latent behavioral priors at inference time. In our main single-round setting, a length-32 SoftSkill prefix on Qwen3.5-4B improves over no-skill prompting by 8.3 points on SearchQA, 42.1 points on LiveMath, and 1.3 points on DocVQA. Relative to SkillOpt, SoftSkill improves accuracy by 5.2 points on SearchQA and 12.5 points on LiveMath, while replacing hundreds to thousands of Markdown skill tokens with a few virtual tokens. We further study agentic execution as a harder boundary case, where sparse trajectory imitation provides useful signal but does not yet robustly compress long-horizon procedural behavior. More broadly, the results suggest that some task skills are better treated not as additional Markdown to be reinterpreted at inference time, but as compact latent controls over how a frozen model enters the task.},
-  doi          = {10.48550/ARXIV.2606.20333},
-  arxiv        = {2606.20333},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2606.20333},
-  code         = {https://github.com/xijia-tao/SoftSkill}
+@book{einstein1956investigations,
+  bibtex_show = {true},
+  title       = {Investigations on the Theory of the Brownian Movement},
+  author      = {Einstein, Albert},
+  year        = {1956},
+  publisher   = {Courier Corporation},
+  preview     = {brownian-motion.gif}
 }
 
-@article{DBLP:journals/corr/abs-2605-29534,
-  author       = {Yuxiang Chai and
-                  Han Xiao and
-                  Xinyu Fu and
-                  Jinpeng Chen and
-                  Rui Liu and
-                  Hongsheng Li†},
-  title        = {{UI-KOBE:} Knowledge-Oriented Behavior Exploration for Lightweight
-                  Graph-Guided {GUI} Agents},
-  journal      = {CoRR},
-  volume       = {abs/2605.29534},
-  year         = {2026},
-  abbr         = {arXiv},
-  abstract     = {Recent advances in mobile GUI agents have shown strong potential for automating mobile tasks, but most effective systems still depend on large vision-language models for screenshot understanding and long-horizon planning. Small GUI agents that can be deployed directly on mobile devices are more attractive for practical use, offering lower inference cost and better protection of sensitive on-device information. However, due to limited model capacity, such lightweight agents remain unreliable when planning and executing GUI tasks end-to-end from screenshots alone. We propose Knowledge-Oriented Behavior Exploration (UI-KOBE), a framework that improves lightweight mobile GUI agents with reusable app-specific graph knowledge. UI-KOBE first autonomously explores a mobile application and constructs an app knowledge graph, where nodes represent distinct UI states and edges represent executable transitions. At runtime, a lightweight GUI agent uses the graph as external guidance: given a user task and the current screenshot, it identifies the current graph node and selects among self-loop actions, neighboring transitions, task completion, or fallback free actions associated with that node. By supporting runtime decisions with app-specific graph guidance, UI-KOBE reduces the burden of end-to-end GUI planning and helps lightweight models perform mobile GUI tasks more effectively, offering a practical step toward efficient, interpretable, and privacy-conscious on-device GUI agents.},
-  doi          = {10.48550/ARXIV.2605.29534},
-  arxiv        = {2605.29534},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2605.29534},
-  code         = {https://github.com/YuxiangChai/UI-KOBE}
+@article{einstein1950meaning,
+  abbr        = {AJP},
+  bibtex_show = {true},
+  title       = {The meaning of relativity},
+  author      = {Einstein, Albert and Taub, AH},
+  journal     = {American Journal of Physics},
+  volume      = {18},
+  number      = {6},
+  pages       = {403--404},
+  year        = {1950},
+  publisher   = {American Association of Physics Teachers}
 }
 
-@article{DBLP:journals/corr/abs-2605-11854,
-  author       = {Kecheng Chen* and
-                  Ziru Liu* and
-                  Xijia Tao and
-                  Hui Liu and
-                  Yibing Liu and
-                  Xinyu Fu and
-                  Shi Wu and
-                  Suiyun Zhang and
-                  Dandan Tu† and
-                  Lingpeng Kong and
-                  Rui Liu† and
-                  Haoliang Li†},
-  title        = {Self-Distilled Trajectory-Aware Boltzmann Modeling: Bridging the Training-Inference
-                  Discrepancy in Diffusion Language Models},
-  journal      = {CoRR},
-  volume       = {abs/2605.11854},
-  year         = {2026},
-  abbr         = {arXiv},
-  abstract     = {Diffusion Language Models (DLMs) have recently emerged as a promising alternative to autoregressive language models, offering stronger global awareness and highly parallel generation. However, post-training DLMs with standard Negative Evidence Lower Bound (NELBO)-based supervised fine-tuning remains inefficient: training reconstructs randomly masked tokens in a single step, whereas inference follows a confidence-guided, multi-step easy-to-hard denoising trajectory. Recent trajectory-based self-distillation methods exploit such inference trajectories mainly for sampling-step compression and acceleration, often improving decoding efficiency without substantially enhancing the model's underlying capability, and may even degrade performance under full diffusion decoding. In this work, we ask whether self-distilled trajectories can be used not merely for faster inference, but for genuine knowledge acquisition. Although these trajectories lie on the pretrained DLM's own distributional manifold and thus offer a potentially lower optimization barrier, we find that naively fine-tuning on them with standard NELBO objectives yields only marginal gains. To address this limitation, we propose Trajectory-Aligned optimization via Boltzmann Modeling (TABOM), a self-distilled trajectory-based post-training framework that aligns training with the easy-to-hard structure of inference. TABOM models the inference unmasking preference as a Boltzmann distribution over predictive entropies and derives a tractable pairwise ranking objective to align the model's certainty ordering with the observed decoding trajectory. Empirically, TABOM achieves substantial gains in new domains, expands the effective knowledge boundary of DLMs, and significantly mitigates catastrophic forgetting compared with standard SFT.},
-  doi          = {10.48550/ARXIV.2605.11854},
-  arxiv        = {2605.11854},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2605.11854},
-  code         = {https://github.com/tonyckc/TABOM},
-  html         = {https://tonyckc.github.io/TABOM-web/}
+@article{PhysRev.47.777,
+  abbr              = {PhysRev},
+  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
+  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
+  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
+  journal           = {Phys. Rev.},
+  location          = {New Jersey},
+  volume            = {47},
+  issue             = {10},
+  pages             = {777--780},
+  numpages          = {0},
+  year              = {1935},
+  month             = {May},
+  publisher         = aps,
+  doi               = {10.1103/PhysRev.47.777},
+  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
+  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
+  pdf               = {example_pdf.pdf},
+  altmetric         = {248277},
+  dimensions        = {true},
+  google_scholar_id = {qyhmnyLat1gC},
+  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
+  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
+  annotation        = {* Example use of superscripts<br>† Albert Einstein},
+  selected          = {true},
+  inspirehep_id     = {3255}
 }
 
-@article{DBLP:journals/corr/abs-2603-01940,
-  author       = {Jinpeng Chen* and
-                  Cheng Gong* and
-                  Hanbo Li* and
-                  Ziru Liu and
-                  Zichen Tian and
-                  Xinyu Fu and
-                  Shi Wu and
-                  Chenyang Zhang and
-                  Wu Zhang and
-                  Suiyun Zhang and
-                  Dandan Tu† and
-                  Rui Liu†},
-  title        = {CoVe: Training Interactive Tool-Use Agents via Constraint-Guided Verification},
-  journal      = {CoRR},
-  volume       = {abs/2603.01940},
-  year         = {2026},
-  abbr         = {arXiv},
-  abstract     = {Developing multi-turn interactive tool-use agents is challenging because real-world user needs are often complex and ambiguous, yet agents must execute deterministic actions to satisfy them. To address this gap, we introduce CoVe (Constraint-Verification), a post-training data synthesis framework designed for training interactive tool-use agents while ensuring both data complexity and correctness. CoVe begins by defining explicit task constraints, which serve a dual role: they guide the generation of complex trajectories and act as deterministic verifiers for assessing trajectory quality. This enables the creation of high-quality training trajectories for supervised fine-tuning (SFT) and the derivation of accurate reward signals for reinforcement learning (RL). Our evaluation on the challenging τ2-bench benchmark demonstrates the effectiveness of the framework. Notably, our compact CoVe-4B model achieves success rates of 43.0% and 59.4% in the Airline and Retail domains, respectively; its overall performance significantly outperforms strong baselines of similar scale and remains competitive with models up to 17× its size. These results indicate that CoVe provides an effective and efficient pathway for synthesizing training data for state-of-the-art interactive tool-use agents. To support future research, we open-source our code, trained model, and the full set of 12K high-quality trajectories used for training.},
-  doi          = {10.48550/ARXIV.2603.01940},
-  arxiv        = {2603.01940},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2603.01940},
-  html         = {https://cove-agent.github.io/}
+@article{einstein1905molekularkinetischen,
+  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
+  author    = {Einstein, A.},
+  journal   = {Annalen der physik},
+  volume    = {322},
+  number    = {8},
+  pages     = {549--560},
+  year      = {1905},
+  publisher = {Wiley Online Library}
 }
 
-@article{DBLP:journals/corr/abs-2512-02044,
-  author       = {Kecheng Chen* and
-                  Ziru Liu* and
-                  Xijia Tao and
-                  Hui Liu and
-                  Xinyu Fu and
-                  Suiyun Zhang and
-                  Dandan Tu and
-                  Lingpeng Kong and
-                  Rui Liu† and
-                  Haoliang Li†},
-  title        = {Beyond Confidence: Adaptive and Coherent Decoding for Diffusion Language
-                  Models},
-  journal      = {CoRR},
-  volume       = {abs/2512.02044},
-  year         = {2025},
-  abbr         = {arXiv},
-  abstract     = {Diffusion Language Models (DLMs) have recently achieved significant success due to their any-order generation capabilities. However, existing inference methods typically rely on local, immediate-step metrics—such as confidence or entropy—which inherently lack a more reliable perspective, leading to sub-optimal generation quality. To address this, we propose Coherent Contextual Decoding (CCD), a novel inference framework built upon two core innovations. First, CCD bypasses the potential bias of the single context to leverage historical contexts for approximating the marginal distribution of token prediction, leading to better sequence coherence and the early rejection of sub-optimal paths. More importantly, we demonstrate that this mechanism is theoretically equivalent to modeling the consistency of historical steps via the conditional mutual information between contexts and token predictions. Finally, CCD achieves significantly milder performance degradation under highly parallel decoding scenarios compared to baselines. Empirically, our method achieves a simultaneous enhancement in both inference speed and performance across diverse benchmarks on Dream and LLaDA.},
-  doi          = {10.48550/ARXIV.2512.02044},
-  arxiv        = {2512.02044},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2512.02044},
-  code         = {https://github.com/tonyckc/CCD-DLM-code},
-  html         = {https://tonyckc.github.io/CCD-DLM-Project/},
-  selected     = {true}
+@article{einstein1905movement,
+  abbr    = {Ann. Phys.},
+  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
+  author  = {Einstein, A.},
+  journal = {Ann. Phys.},
+  volume  = {17},
+  pages   = {549--560},
+  year    = {1905}
 }
 
-@inproceedings{DBLP:conf/acl/ShiYFRWZTFHLHLL26,
-  author       = {Weikang Shi* and
-                  Aldrich Yu* and
-                  Rongyao Fang* and
-                  Houxing Ren and
-                  Ke Wang and
-                  Aojun Zhou and
-                  Changyao Tian and
-                  Xinyu Fu and
-                  Yuxuan Hu and
-                  Zimu Lu and
-                  Linjiang Huang and
-                  Si Liu and
-                  Rui Liu† and
-                  Hongsheng Li†},
-  title        = {MathCanvas: Intrinsic Visual Chain-of-Thought for Multimodal Mathematical
-                  Reasoning},
-  booktitle    = {{ACL} {(1)}},
-  pages        = {27933--27954},
-  publisher    = {Association for Computational Linguistics},
-  year         = {2026},
-  abbr         = {ACL},
-  abstract     = {While Large Language Models (LLMs) have excelled in textual reasoning, they struggle with mathematical domains like geometry that intrinsically rely on visual aids. Existing approaches to Visual Chain-of-Thought (VCoT) are often limited by rigid external tools or fail to generate the high-fidelity, strategically-timed diagrams necessary for complex problem-solving. To bridge this gap, we introduce MathCanvas, a comprehensive framework designed to endow unified Large Multimodal Models (LMMs) with intrinsic VCoT capabilities for mathematics. Our approach consists of two phases. First, a Visual Manipulation stage pre-trains the model on a novel 15.2M-pair corpus, comprising 10M caption-to-diagram pairs (MathCanvas-Imagen) and 5.2M step-by-step editing trajectories (MathCanvas-Edit), to master diagram generation and editing. Second, a Strategic Visual-Aided Reasoning stage fine-tunes the model on MathCanvas-Instruct, a new 219K-example dataset of interleaved visual-textual reasoning paths, teaching it when and how to leverage visual aids. To facilitate rigorous evaluation, we introduce MathCanvas-Bench, a challenging benchmark with 3K problems that require models to produce interleaved visual-textual solutions. Our model, BAGEL-Canvas, trained under this framework, achieves an 86% relative improvement over strong LMM baselines on MathCanvas-Bench, demonstrating excellent generalization to other public math benchmarks. Our work provides a complete toolkit—framework, datasets, and benchmark—to unlock complex, human-like visual reasoning in LMMs.},
-  doi          = {10.18653/v1/2026.acl-long.1287},
-  arxiv        = {2510.14958},
-  bibtex_show  = {true},
-  pdf          = {https://aclanthology.org/2026.acl-long.1287.pdf},
-  code         = {https://github.com/shiwk24/MathCanvas},
-  html         = {https://mathcanvas.github.io/},
-  selected     = {true}
+@article{einstein1905electrodynamics,
+  title  = {On the electrodynamics of moving bodies},
+  author = {Einstein, A.},
+  year   = {1905}
 }
 
-@article{DBLP:journals/corr/abs-2508-21475,
-  author       = {Xijia Tao* and
-                  Yihua Teng* and
-                  Xinxing Su* and
-                  Xinyu Fu and
-                  Jihao Wu and
-                  Chaofan Tao and
-                  Ziru Liu and
-                  Haoli Bai and
-                  Rui Liu† and
-                  Lingpeng Kong†},
-  title        = {MMSearch-Plus: Benchmarking Provenance-Aware Search for Multimodal Browsing Agents},
-  journal      = {CoRR},
-  volume       = {abs/2508.21475},
-  year         = {2025},
-  abbr         = {arXiv},
-  abstract     = {Existing multimodal browsing benchmarks often fail to require genuine multimodal reasoning, as many tasks can be solved with text-only heuristics without vision-in-the-loop verification. We introduce MMSearch-Plus, a 311-task benchmark that enforces multimodal understanding by requiring extraction and propagation of fine-grained visual cues through iterative image-text retrieval and cross-validation under retrieval noise. Our curation procedure seeds questions whose answers require extrapolating from spatial cues and temporal traces to out-of-image facts such as events, dates, and venues. Beyond the dataset, we provide a model-agnostic agent framework with standard browsing tools and a set-of-mark (SoM) module, which lets the agent place marks, crop subregions, and launch targeted image/text searches. SoM enables provenance-aware zoom-and-retrieve and improves robustness in multi-step reasoning. We evaluated closed- and open-source MLLMs in this framework. The strongest system achieves an end-to-end accuracy of 36.0%, and integrating SoM produces consistent gains in multiple settings, with improvements up to +3.9 points. From failure analysis, we observe recurring errors in locating relevant webpages and distinguishing between visually similar events. These results underscore the challenges of real-world multimodal search and establish MMSearch-Plus as a rigorous benchmark for advancing agentic MLLMs.},
-  doi          = {10.48550/arxiv.2508.21475},
-  arxiv        = {2508.21475},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2508.21475},
-  code         = {https://github.com/mmsearch-plus/MMSearch-Plus},
-  html         = {https://mmsearch-plus.github.io/},
-  selected     = {true}
+@article{einstein1905photoelectriceffect,
+  bibtex_show = {true},
+  abbr        = {Ann. Phys.},
+  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
+  author      = {Albert Einstein},
+  abstract    = {This is the abstract text.},
+  journal     = {Ann. Phys.},
+  volume      = {322},
+  number      = {6},
+  pages       = {132--148},
+  year        = {1905},
+  doi         = {10.1002/andp.19053220607},
+  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
+  award_name  = {Nobel Prize}
 }
 
-@article{DBLP:journals/corr/abs-2507-10628,
-  author       = {Ziru Liu* and
-                  Cheng Gong* and
-                  Xinyu Fu and
-                  Yaofang Liu and
-                  Ran Chen and
-                  Shoubo Hu and
-                  Suiyun Zhang and
-                  Rui Liu† and
-                  Qingfu Zhang† and
-                  Dandan Tu†},
-  title        = {{GHPO:} Adaptive Guidance for Stable and Efficient {LLM} Reinforcement
-                  Learning},
-  journal      = {CoRR},
-  volume       = {abs/2507.10628},
-  year         = {2025},
-  abbr         = {arXiv},
-  abstract     = {Reinforcement Learning with Verifiable Rewards (RLVR) has recently emerged as a powerful paradigm for facilitating the self-improvement of large language models (LLMs), particularly in the domain of complex reasoning tasks. However, prevailing on-policy RL methods often contend with significant training instability and inefficiency. This is primarily due to a capacity-difficulty mismatch, where the complexity of training data frequently outpaces the model's current capabilities, leading to critically sparse reward signals and stalled learning progress. This challenge is particularly acute for smaller, more resource-efficient LLMs. To overcome this, we introduce the Guided Hybrid Policy Optimization (GHPO), a novel difficulty-aware reinforcement learning framework. GHPO dynamically calibrates task difficulty by employing adaptive prompt refinement to provide targeted guidance. This unique approach adaptively balances direct imitation learning for problems currently beyond the model's reach with exploration-based reinforcement learning for more manageable tasks, effectively creating a smooth and optimized learning curriculum. Extensive experiments demonstrate that GHPO achieves an average performance gain of approximately 5% across six challenging mathematics benchmarks, consistently outperforming strong on-policy reinforcement learning and curriculum learning baselines. Further analysis confirms that our framework significantly enhances both training stability and final reasoning performance, thus offering a scalable and efficient solution for developing powerful and robust reasoning models.},
-  doi          = {10.48550/arXiv.2507.10628},
-  arxiv        = {2507.10628},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2507.10628},
-  code         = {https://github.com/hkgc-1/GHPO},
-  selected     = {true}
-}
-
-@inproceedings{jiahong_flatland,
-  author       = {Jiahong Liu and
-                  Xinyu Fu and
-                  Menglin Yang and
-                  Weixi Zhang and
-                  Rex Ying and
-                  Irwin King},
-  title        = {Client-Specific Hyperbolic Federated Learning},
-  booktitle    = {{FedKDD} Workshop},
-  year         = {2024},
-  abbr         = {FedKDD},
-  abstract     = {Personalized Federated Learning (PFL) has gained attention for privacy-preserving training on heterogeneous data. However, existing methods fail to capture the unique inherent geometric properties across diverse datasets by assuming a unified Euclidean space for all data distributions. Drawing on hyperbolic geometry's ability to fit complex data properties, we present FlatLand, a novel personalized Federated learning method that embeds different clients' data in tailored Lorentz space. FlatLand is able to directly tackle the challenge of heterogeneity through the personalized curvatures of their respective Lorentz model of hyperbolic geometry, which is manifested by the time-like dimension. Leveraging the Lorentz model properties, we further design a parameter decoupling strategy that enables direct server aggregation of common client information, with reduced heterogeneity interference and without the need for client-wise similarity estimation. To the best of our knowledge, this is the first attempt to incorporate hyperbolic geometry into personalized federated learning. Empirical results on various federated graph learning tasks demonstrate that FlatLand achieves superior performance, particularly in low-dimensional settings.},
-  bibtex_show  = {true},
-  pdf          = {https://openreview.net/pdf?id=vVikOgFrpW},
-  selected     = {false}
-}
-
-@inproceedings{DBLP:conf/kdd/ZhangZS00MKK24,
-  author       = {Yifei Zhang and
-                  Hao Zhu and
-                  Zixing Song and
-                  Yankai Chen and
-                  Xinyu Fu and
-                  Ziqiao Meng and
-                  Piotr Koniusz† and
-                  Irwin King†},
-  title        = {Geometric View of Soft Decorrelation in Self-Supervised Learning},
-  booktitle    = {{KDD}},
-  pages        = {4338--4349},
-  publisher    = {{ACM}},
-  year         = {2024},
-  abbr         = {KDD},
-  abstract     = {Contrastive learning, a form of Self-Supervised Learning (SSL), typically consists of an alignment term and a regularization term. The alignment term minimizes the distance between the embeddings of a positive pair, while the regularization term prevents trivial solutions and expresses prior beliefs about the embeddings. As a widely used regularization technique, soft decorrelation has been employed by several non-contrastive SSL methods to avoid trivial solutions. While the decorrelation term is designed to address the issue of dimensional collapse, we find that it fails to achieve this goal theoretically and experimentally. Based on such a finding, we extend the soft decorrelation regularization to minimize the distance between the covariance matrix and an identity matrix. We provide a new perspective on the geometric distance between positive definite matrices to investigate why the soft decorrelation cannot efficiently solve the dimensional collapse. Furthermore, we construct a family of loss functions utilizing the Bregman Matrix Divergence (BMD), with the soft decorrelation representing a specific instance within this family. We prove that a loss function (LogDet) in this family can solve the issue of dimensional collapse. Our novel loss functions based on BMD exhibit superior performance compared to the soft decorrelation and other baseline techniques, as demonstrated by experimental results on graph and image datasets.},
-  doi          = {10.1145/3637528.3671914},
-  bibtex_show  = {true},
-  pdf          = {https://dl.acm.org/doi/pdf/10.1145/3637528.3671914},
-  selected     = {false}
-}
-
-@article{DBLP:journals/tist/ZhangZLFCXK24,
-  author       = {Yifei Zhang and
-                  Dun Zeng and
-                  Jinglong Luo and
-                  Xinyu Fu and
-                  Guanzhong Chen and
-                  Zenglin Xu† and
-                  Irwin King†},
-  title        = {A Survey of Trustworthy Federated Learning: Issues, Solutions, and
-                  Challenges},
-  journal      = {ACM Transactions on Intelligent Systems and Technology},
-  volume       = {15},
-  number       = {6},
-  pages        = {112:1--112:47},
-  year         = {2024},
-  abbr         = {TIST},
-  abstract     = {Trustworthy artificial intelligence (TAI) has proven invaluable in curbing potential negative repercussions tied to AI applications. Within the TAI spectrum, federated learning (FL) emerges as a promising solution to safeguard personal information in distributed settings across a multitude of practical contexts. However, the realm of FL is not without its challenges. Especially worrisome are adversarial attacks targeting its algorithmic robustness and systemic confidentiality. Moreover, the presence of biases and opacity in prediction outcomes further complicates FL’s broader adoption. Consequently, there is a growing expectation for FL to instill trust. To address this, we chart out a comprehensive road-map for Trustworthy Federated Learning (TFL) and provide an overview of existing efforts across four pivotal dimensions: Privacy and Security, Robustness, Fairness, and Explainability. For each dimension, we identify potential pitfalls that might undermine TFL and present a curated selection of defensive strategies, enriched by a discourse on technical solutions tailored for TFL. Furthermore, we present potential challenges and future directions to be explored for in-depth TFL research with broader impacts.},
-  doi          = {10.1145/3678181},
-  bibtex_show  = {true},
-  selected     = {false}
-}
-
-@inproceedings{DBLP:conf/ijcai/SongYZ0XK24,
-  author       = {Zixing Song and
-                  Xiangli Yang and
-                  Yifei Zhang and
-                  Xinyu Fu and
-                  Zenglin Xu and
-                  Irwin King},
-  title        = {A Systematic Survey on Federated Semi-supervised Learning},
-  booktitle    = {{IJCAI}},
-  pages        = {8244--8252},
-  publisher    = {ijcai.org},
-  year         = {2024},
-  abbr         = {IJCAI},
-  abstract     = {Federated learning (FL) revolutionizes distributed machine learning by enabling devices to collaboratively learn a model while maintaining data privacy. However, FL usually faces a critical challenge with limited labeled data, making semi-supervised learning (SSL) crucial for utilizing abundant unlabeled data. The integration of SSL within the federated framework gives rise to federated semi-supervised learning (FSSL), a novel approach that exploits unlabeled data across devices without compromising privacy. This paper systematically explores FSSL, shedding light on its four basic problem settings that commonly appear in real-world scenarios. By examining the unique challenges, generic solutions, and representative methods tailored for each setting of FSSL, we aim to provide a cohesive overview of the current state of the art and pave the way for future research directions in this promising field.},
-  doi          = {10.24963/ijcai.2024/911},
-  bibtex_show  = {true},
-  pdf          = {https://www.ijcai.org/proceedings/2024/0911.pdf},
-  selected     = {false}
-}
-
-@article{DBLP:journals/nn/FuK24,
-  author       = {Xinyu Fu† and
-                  Irwin King},
-  title        = {{MECCH:} Metapath Context Convolution-based Heterogeneous Graph Neural
-                  Networks},
-  journal      = {Neural Networks},
-  volume       = {170},
-  pages        = {266--275},
-  year         = {2024},
-  abbr         = {NEUNET},
-  abstract     = {Heterogeneous graph neural networks (HGNNs) were proposed for representation learning on structural data with multiple types of nodes and edges. To deal with the performance degradation issue when HGNNs become deep, researchers combine metapaths into HGNNs to associate nodes closely related in semantics but far apart in the graph. However, existing metapath-based models suffer from either information loss or high computation costs. To address these problems, we present a novel Metapath Context Convolution-based Heterogeneous Graph Neural Network (MECCH). MECCH leverages metapath contexts, a new kind of graph structure that facilitates lossless node information aggregation while avoiding any redundancy. Specifically, MECCH applies three novel components after feature preprocessing to extract comprehensive information from the input graph efficiently: (1) metapath context construction, (2) metapath context encoder, and (3) convolutional metapath fusion. Experiments on five real-world heterogeneous graph datasets for node classification and link prediction show that MECCH achieves superior prediction accuracy compared with state-of-the-art baselines with improved computational efficiency.},
-  doi          = {10.1016/j.neunet.2023.11.030},
-  arxiv        = {2211.12792},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2211.12792},
-  code         = {https://github.com/cynricfu/MECCH},
-  selected     = {true}
-}
-
-@inproceedings{DBLP:conf/ijcai/0004K23,
-  author       = {Xinyu Fu and
-                  Irwin King},
-  title        = {FedHGN: {A} Federated Framework for Heterogeneous Graph Neural Networks},
-  booktitle    = {{IJCAI}},
-  pages        = {3705--3713},
-  publisher    = {ijcai.org},
-  year         = {2023},
-  abbr         = {IJCAI},
-  abstract     = {Heterogeneous graph neural networks (HGNNs) can learn from typed and relational graph data more effectively than conventional GNNs. With larger parameter spaces, HGNNs may require more training data, which is often scarce in real-world applications due to privacy regulations (e.g., GDPR). Federated graph learning (FGL) enables multiple clients to train a GNN collaboratively without sharing their local data. However, existing FGL methods mainly focus on homogeneous GNNs or knowledge graph embeddings; few have considered heterogeneous graphs and HGNNs. In federated heterogeneous graph learning, clients may have private graph schemas. Conventional FL/FGL methods attempting to define a global HGNN model would violate schema privacy. To address these challenges, we propose FedHGN, a novel and general FGL framework for HGNNs. FedHGN adopts schema-weight decoupling to enable schema-agnostic knowledge sharing and employs coefficients alignment to stabilize the training process and improve HGNN performance. With better privacy preservation, FedHGN consistently outperforms local training and conventional FL methods on three widely adopted heterogeneous graph datasets with varying client numbers.},
-  doi          = {10.24963/ijcai.2023/412},
-  arxiv        = {2305.09729},
-  bibtex_show  = {true},
-  pdf          = {https://www.ijcai.org/proceedings/2023/0412.pdf},
-  code         = {https://github.com/cynricfu/FedHGN}
-}
-
-@inproceedings{DBLP:conf/www/0004ZMK20,
-  author       = {Xinyu Fu and
-                  Jiani Zhang and
-                  Ziqiao Meng and
-                  Irwin King},
-  title        = {{MAGNN:} Metapath Aggregated Graph Neural Network for Heterogeneous
-                  Graph Embedding},
-  booktitle    = {{WWW}},
-  pages        = {2331--2341},
-  publisher    = {{ACM} / {IW3C2}},
-  year         = {2020},
-  abbr         = {WWW},
-  abstract     = {A large number of real-world graphs or networks are inherently heterogeneous, involving a diversity of node types and relation types. Heterogeneous graph embedding is to embed rich structural and semantic information of a heterogeneous graph into low-dimensional node representations. Existing models usually define multiple metapaths in a heterogeneous graph to capture the composite relations and guide neighbor selection. However, these models either omit node content features, discard intermediate nodes along the metapath, or only consider one metapath. To address these three limitations, we propose a new model named Metapath Aggregated Graph Neural Network (MAGNN) to boost the final performance. Specifically, MAGNN employs three major components, i.e., the node content transformation to encapsulate input node attributes, the intra-metapath aggregation to incorporate intermediate semantic nodes, and the inter-metapath aggregation to combine messages from multiple metapaths. Extensive experiments on three real-world heterogeneous graph datasets for node classification, node clustering, and link prediction show that MAGNN achieves more accurate prediction results than state-of-the-art baselines.},
-  doi          = {10.1145/3366423.3380297},
-  arxiv        = {2002.01680},
-  bibtex_show  = {true},
-  pdf          = {https://arxiv.org/pdf/2002.01680},
-  code         = {https://github.com/cynricfu/MAGNN},
-  altmetric    = {75101511},
-  dimensions   = {pub.1127360431},
-  google_scholar_id = {u5HHmVD_uO8C},
-  selected     = {true}
+@book{przibram1967letters,
+  bibtex_show = {true},
+  title       = {Letters on wave mechanics},
+  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
+  year        = {1967},
+  publisher   = {Vision},
+  preview     = {wave-mechanics.gif},
+  abbr        = {Vision}
 }

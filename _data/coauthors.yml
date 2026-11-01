@@ -1,169 +1,34 @@
-"bai":
-  - firstname: ["Haoli"]
-    url: https://haolibai.github.io/
+"adams":
+  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
+    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"chai":
-  - firstname: ["Yuxiang"]
-    url: https://www.yxchai.com/
+"podolsky":
+  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+    url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
-"chen":
-  - firstname: ["Guanzhong"]
-    url: https://stupidtrees.github.io/
-  - firstname: ["Jinpeng"]
-    url: https://jinpeng0528.github.io/
-  - firstname: ["Kecheng"]
-    url: https://tonyckc.github.io/
-  - firstname: ["Ran"]
-    url: https://scholar.google.com/citations?user=HFo2pK4AAAAJ
-  - firstname: ["Yankai"]
-    url: https://yankai-chen.github.io/
+"rosen":
+  - firstname: ["Nathan", "N."]
+    url: https://en.wikipedia.org/wiki/Nathan_Rosen
 
-"fang":
-  - firstname: ["Rongyao"]
-    url: https://rongyaofang.github.io/
+"bach":
+  - firstname: ["Johann Sebastian", "J. S."]
+    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
 
-"gong":
-  - firstname: ["Cheng"]
-    url: https://chenggong1995.github.io/cg.io/
+  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"hu":
-  - firstname: ["Shoubo"]
-    url: https://dblp.org/pid/218/9202.html
-  - firstname: ["Yuxuan"]
-    url: https://scholar.google.com/citations?user=nk2R0cMAAAAJ
+"przibram":
+  - firstname: ["Karl"]
+    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"huang":
-  - firstname: ["Linjiang"]
-    url: https://leonhlj.github.io/
+"schrodinger":
+  - firstname: ["Erwin"]
+    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
 
-"king":
-  - firstname: ["Irwin"]
-    url: https://www.cse.cuhk.edu.hk/irwin.king/
+"lorentz":
+  - firstname: ["Hendrik Antoon"]
+    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
 
-"koniusz":
-  - firstname: ["Piotr"]
-    url: https://www.koniusz.com/
-
-"kong":
-  - firstname: ["Lingpeng"]
-    url: https://ikekonglp.github.io/
-
-"li":
-  - firstname: ["Hanbo"]
-    url: https://scholar.google.com/citations?user=jyJ2XGEAAAAJ
-  - firstname: ["Haoliang"]
-    url: https://hlli1991.github.io/
-  - firstname: ["Hongsheng"]
-    url: https://www.ee.cuhk.edu.hk/~hsli/
-
-"liu":
-  - firstname: ["Hui"]
-    url: https://scholars.cityu.edu.hk/en/persons/liuhui3/
-  - firstname: ["Jiahong"]
-    url: https://www.researchgate.net/profile/Jiahong-Liu-5
-  - firstname: ["Rui"]
-    url: https://ruiliu-ai.github.io/
-  - firstname: ["Si"]
-    url: https://openreview.net/profile?id=~Si_Liu5
-  - firstname: ["Yaofang"]
-    url: https://scholar.google.com/citations?user=WWb7Y7AAAAAJ
-  - firstname: ["Yibing"]
-    url: https://bierone.github.io/
-  - firstname: ["Ziru"]
-    url: https://scholar.google.com/citations?user=7H-1sukAAAAJ
-
-"lu":
-  - firstname: ["Zimu"]
-    url: https://scholar.google.com/citations?user=ewuGUCwAAAAJ
-
-"luo":
-  - firstname: ["Jinglong"]
-    url: https://dblp.org/pid/257/4192.html
-
-"meng":
-  - firstname: ["Ziqiao"]
-    url: https://scholar.google.com/citations?user=NY3OA7sAAAAJ
-
-"ren":
-  - firstname: ["Houxing"]
-    url: https://scholar.google.com/citations?user=reSJxKkAAAAJ
-
-"shi":
-  - firstname: ["Weikang"]
-    url: https://scholar.google.com/citations?user=GjRC15wAAAAJ
-
-"song":
-  - firstname: ["Zixing"]
-    url: https://www.wolfson.cam.ac.uk/people/dr-zixing-song
-
-"tao":
-  - firstname: ["Chaofan"]
-    url: https://chaofantao.top/
-  - firstname: ["Xijia"]
-    url: https://xijia-tao.github.io/
-
-"teng":
-  - firstname: ["Yihua"]
-    url: https://scholar.google.com/citations?user=4cDSq0AAAAAJ
-
-"tian":
-  - firstname: ["Changyao"]
-    url: https://scholar.google.com/citations?user=kQ3AisQAAAAJ
-
-"tu":
-  - firstname: ["Dandan"]
-    url: https://scholar.google.com/citations?user=nf8bdFYAAAAJ
-
-"wang":
-  - firstname: ["Ke"]
-    url: https://wangk.org/
-
-"wu":
-  - firstname: ["Jihao"]
-    url: https://scholar.google.com/citations?user=qVvQl58AAAAJ
-
-"xiao":
-  - firstname: ["Han"]
-    url: https://scholar.google.com/citations?user=N-u2i-QAAAAJ
-
-"xu":
-  - firstname: ["Zenglin"]
-    url: https://scholar.google.com/citations?user=gF0H9nEAAAAJ
-
-"yang":
-  - firstname: ["Menglin"]
-    url: https://yangmenglinsite.github.io/
-  - firstname: ["Xiangli"]
-    url: https://scholar.google.com/citations?user=PWbQtnoAAAAJ
-
-"ying":
-  - firstname: ["Rex"]
-    url: https://www.cs.yale.edu/homes/ying-rex/
-
-"zeng":
-  - firstname: ["Dun"]
-    url: https://dunzeng.github.io/
-
-"zhang":
-  - firstname: ["Chenyang"]
-    url: https://scholar.google.com/citations?user=McBDB18AAAAJ
-  - firstname: ["Jiani"]
-    url: https://jennyzhang0215.github.io/
-  - firstname: ["Qingfu"]
-    url: https://scholar.google.com/citations?user=nhL9PHwAAAAJ
-  - firstname: ["Suiyun"]
-    url: https://scholar.google.com/citations?user=djYpGOIAAAAJ
-  - firstname: ["Weixi"]
-    url: https://orcid.org/0009-0007-4769-2779
-  - firstname: ["Wu"]
-    url: https://www.linkedin.com/in/wu-zhang-512507112/
-  - firstname: ["Yifei"]
-    url: https://yifeiacc.github.io/
-
-"zhou":
-  - firstname: ["Aojun"]
-    url: https://scholar.google.com/citations?user=cC8lXi8AAAAJ
-
-"zhu":
-  - firstname: ["Hao"]
-    url: https://scholar.google.com/citations?user=cpee-44AAAAJ
+"planck":
+  - firstname: ["Max"]
+    url: https://en.wikipedia.org/wiki/Max_Planck
